@@ -1,11 +1,3602 @@
-.panel {
-  background-image: -webkit-gradient(linear, left top, right top,
-  color-stop(0.00, rgba(255, 0, 0, 0.1)),
-  color-stop(16%, rgba(255, 165, 0, 0.1)),
-  color-stop(32%, rgba(255, 255, 0, 0.1)),
-  color-stop(48%, rgba(0, 128, 0, 0.1)),
-  color-stop(60%, rgba(0, 0, 255, 0.1)),
-  color-stop(76%, rgba(75, 0, 130, 0.1)),
-  color-stop(1.00, rgba(238, 130, 238, 0.1)));
+.vbox {
+  font-family: 宋体, sans-serif !important;
 }
 
+#toolbar > .toolbar-item.toggleable.toggled-on {
+}
+
+.tabbed-pane:not(.help-window-main) .tabbed-pane-header-tab.selected,
+.small .tabbed-pane:not(.help-window-main) .tabbed-pane-header-tab.selected {
+}
+
+#network-views {
+}
+
+.styles-section .properties .overloaded,
+.styles-section .properties .inactive,
+.styles-section .properties .disabled,
+.styles-section .properties .not-parsed-ok {
+}
+
+.styles-section .properties .enabled-button {
+}
+
+.panel.elements .parent + .children {
+}
+
+.panel.elements .parent.selected.expanded + .children > :last-child *,
+.panel.elements .parent.hovered.expanded + .children > :last-child * {
+}
+
+.popover {
+}
+
+.popover.top-left-arrow {
+}
+
+.popover.top-right-arrow {
+}
+
+.popover.right-top-arrow {
+}
+
+.popover.right-bottom-arrow {
+}
+
+.popover.bottom-left-arrow {
+}
+
+.popover.bottom-right-arrow {
+}
+
+.popover.left-top-arrow {
+}
+
+.popover.left-bottom-arrow {
+}
+
+.panel.visible {
+}
+
+.panel.elements /deep/ .parent + .children {
+}
+
+.panel.elements /deep/ .hovered.parent.expanded + .children > li:last-of-type .webkit-html-tag.close,
+.panel.elements /deep/ .selected.parent.expanded + .children > li:last-of-type .webkit-html-tag.close {
+}
+
+.panel.elements .parent.selected.expanded + .children,
+.panel.elements .parent.hovered.expanded + .children {
+}
+
+.panel.elements .parent.selected.expanded + .children > li .webkit-html-pseudo-element:first-child,
+.panel.elements .parent.hovered.expanded + .children > li .webkit-html-pseudo-element:first-child {
+}
+
+.panel.elements .parent.selected.expanded + .children > :last-child *,
+.panel.elements .parent.hovered.expanded + .children > :last-child * {
+}
+
+.panel.elements /deep/ .parent.selected.expanded + .children,
+.panel.elements /deep/ .parent.hovered.expanded + .children {
+}
+
+.panel.elements /deep/ .parent.selected.expanded + .children > li .webkit-html-pseudo-element:first-child,
+.panel.elements /deep/ .parent.hovered.expanded + .children > li .webkit-html-pseudo-element:first-child {
+}
+
+.panel.elements /deep/ .parent.selected.expanded + .children > li:last-of-type .webkit-html-tag.close,
+.panel.elements /deep/ .parent.hovered.expanded + .children > li:last-of-type .webkit-html-tag.close {
+}
+
+.cm-breakpoint .CodeMirror-gutter-elt {
+}
+
+.CodeMirror-cursor {
+}
+
+.cm-error {
+}
+
+.CodeMirror-gutter-elt {
+}
+
+.CodeMirror-gutters {
+}
+
+.CodeMirror-selected,
+span.CodeMirror-selectedtext {
+}
+
+.CodeMirror-code .CodeMirror-matchingbracket {
+}
+
+.CodeMirror-code .CodeMirror-nonmatchingbracket {
+}
+
+.cm-search-highlight-start:before {
+}
+
+.cm-search-highlight-end:before {
+}
+
+.cm-search-highlight:before {
+}
+
+.cm-line-with-selection .cm-column-with-selection.cm-search-highlight:before {
+}
+
+span.cm-token-highlight {
+}
+
+span.cm-token-highlight:before {
+}
+
+.cm-line-with-selection span.cm-column-with-selection {
+}
+
+.cm-whitespace:before {
+}
+
+.cm-tab:before {
+}
+
+.cm-highlight {
+}
+
+.cm-highlight *:not(.CodeMirror-linenumber) {
+}
+
+.cm-execution-line {
+}
+
+.CodeMirror-linenumber {
+}
+
+.cm-line-without-source-mapping {
+}
+
+#elements-crumbs {
+  font-family: Monaco, sans-serif !important;
+}
+
+#elements-crumbs .crumbs {
+  font-family: Monaco, sans-serif !important;
+}
+
+#elements-crumbs .crumbs .crumb {
+  font-family: Monaco, sans-serif !important;
+}
+
+#elements-crumbs .crumbs .crumb:hover {
+}
+
+#elements-crumbs .crumbs .crumb.selected {
+}
+
+.dialog {
+}
+
+.dialog .fill {
+}
+
+.dialog .selected {
+}
+
+.dialog input,
+.dialog input:focus {
+}
+
+.filtered-item-list-dialog-item {
+}
+
+.filtered-item-list-dialog-item .filtered-item-list-dialog-subtitle {
+}
+
+.filtered-item-list-dialog-item:not(.selected):hover {
+}
+
+.filtered-item-list-dialog-item .filtered-item-list-dialog-title,
+.filtered-item-list-dialog-item span {
+}
+
+.filtered-item-list-dialog-item .highlight {
+}
+
+.filtered-item-list-dialog > div.container {
+}
+
+.text-button,
+[is="text-button"] {
+}
+
+.text-button:disabled,
+[is="text-button"]:disabled {
+}
+
+.text-button:not(:disabled):active,
+[is="text-button"]:not(:disabled):active {
+}
+
+.chrome-select {
+}
+
+.chrome-select:disabled {
+}
+
+.chrome-select:focus {
+}
+
+.search-drawer-header label.search-config-label,
+.drawer .settings-tab label,
+#drawer-footer td label {
+  font-family: 宋体, sans-serif !important;
+}
+
+.tabbed-pane-header-tab, .tabbed-pane-header-tab.selected {
+}
+
+.overrides-view .tabbed-pane-header-tab {
+}
+
+.overrides-view .tabbed-pane-content {
+}
+
+.overrides-view .tabbed-pane-content :disabled {
+}
+
+.overrides-view input,
+.overrides-view select {
+}
+
+.overrides-view input:disabled,
+.overrides-view select:disabled {
+}
+
+.overrides-view input:focus,
+.overrides-view select:focus {
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+}
+
+input[type='range']::-webkit-slider-thumb {
+}
+
+.revision-history-link {
+}
+
+.outline-disclosure.revision-history-drawer ol li {
+}
+
+.revision-history-drawer > ol > .parent {
+}
+
+.revision-history-drawer > ol > .parent + .children {
+}
+
+.revision-history-drawer .revision-history-revision {
+}
+
+.revision-history-drawer .webkit-line-number {
+}
+
+.revision-history-drawer .source-code {
+  font-family: Monaco, sans-serif !important;
+}
+
+.revision-history-drawer .source-code .revision-history-line-separator:nth-child(1) {
+}
+
+.revision-history-drawer .revision-history-line-separator {
+}
+
+.revision-history-drawer .revision-history-line-removed,
+.revision-history-drawer .revision-history-line-added {
+}
+
+.revision-history-drawer .revision-history-line-removed span:last-child,
+.revision-history-drawer .revision-history-line-added span:last-child {
+}
+
+.revision-history-drawer .revision-history-line-removed {
+}
+
+.revision-history-drawer .revision-history-line-added {
+}
+
+.help-footnote {
+}
+
+.help-footnote a {
+}
+
+button.overrides-swap {
+}
+
+button.overrides-swap:disabled {
+}
+
+button.overrides-swap:not(:disabled):active {
+}
+
+.overrides-activate-device #tab-device .tabbed-pane-header-tab-title::after,
+.overrides-activate-media #tab-media .tabbed-pane-header-tab-title::after,
+.overrides-activate-network #tab-network .tabbed-pane-header-tab-title::after,
+.overrides-activate-sensors #tab-sensors .tabbed-pane-header-tab-title::after {
+}
+
+#search-results-pane-file-based .search-result,
+::shadow #search-results-pane-file-based .search-result {
+}
+
+#search-results-pane-file-based .show-more-matches,
+::shadow #search-results-pane-file-based .show-more-matches {
+}
+
+#search-results-pane-file-based .parent:hover,
+::shadow #search-results-pane-file-based .parent:hover {
+}
+
+#search-results-pane-file-based .parent .search-result-file-name,
+::shadow #search-results-pane-file-based .parent .search-result-file-name {
+}
+
+#search-results-pane-file-based .parent .search-result-matches-count,
+::shadow #search-results-pane-file-based .parent .search-result-matches-count {
+}
+
+.toolbar-search button,
+::shadow .search-action-button {
+}
+
+.toolbar-search button:disabled {
+}
+
+.toolbar-search button:not(:disabled):active {
+}
+
+.toolbar-search-control,
+::shadow .toolbar-search-control {
+}
+
+.toolbar-search-control input,
+::shadow .toolbar-search-control input {
+}
+
+.toolbar-search-control input:disabled,
+::shadow .toolbar-search-control input:disabled {
+}
+
+.toolbar-search-control input:focus,
+::shadow .toolbar-search-control input:focus {
+}
+
+.toolbar-search-control .toolbar-search-navigation-controls,
+::shadow .toolbar-search-control .toolbar-search-navigation-controls {
+}
+
+.toolbar-search-control .toolbar-search-navigation.toolbar-search-navigation-prev,
+.toolbar-search-control .toolbar-search-navigation.toolbar-search-navigation-next,
+::shadow .toolbar-search-control .toolbar-search-navigation.toolbar-search-navigation-prev,
+::shadow .toolbar-search-control .toolbar-search-navigation.toolbar-search-navigation-next {
+}
+
+::shadow .search-replace.toolbar-replace-control {
+}
+
+::shadow .search-replace.toolbar-replace-control:disabled {
+}
+
+::shadow .search-replace.toolbar-replace-control:focus {
+}
+
+.search-drawer-header input[type="text"].search-config-search,
+::shadow .search-config-search {
+}
+
+.search-drawer-header input[type="text"].search-config-search:focus,
+::shadow .search-config-search:focus {
+}
+
+#drawer-contents .search-match-line-number,
+::shadow .search-match-line-number {
+}
+
+#search-results-pane-file-based .search-match .highlighted-match,
+.highlighted-search-result,
+.webkit-highlighted-line.webkit-line-content,
+::shadow #search-results-pane-file-based .search-match .highlighted-match {
+}
+
+.search-match:hover {
+}
+
+.status-bar,
+::shadow .search-bar {
+}
+
+.search-results-matches {
+}
+
+.search-match-content,
+::shadow .search-match-content {
+}
+
+.search-status-bar-summary,
+::shadow .search-status-bar-summary {
+}
+
+.search-drawer-header input[type="checkbox"].search-config-checkbox {
+}
+
+.sidebar-pane-filter-box {
+}
+
+.sidebar-pane-filter-box.styles-filter-engaged {
+}
+
+.sidebar-pane-filter-box > input {
+}
+
+.styles-section .properties li.filter-match,
+.styles-section .simple-selector.filter-match {
+}
+
+::shadow ::shadow .regex-search-status-bar-item.status-bar-item.toggled-off .status-bar-button-text,
+::shadow ::shadow .case-sensitive-search-status-bar-item.status-bar-item.toggled-off .status-bar-button-text {
+}
+
+::shadow ::shadow .regex-search-status-bar-item.status-bar-item.toggled-on .status-bar-button-text,
+::shadow ::shadow .case-sensitive-search-status-bar-item.status-bar-item.toggled-on .status-bar-button-text {
+}
+
+::shadow ::shadow .status-bar-item .status-bar-button-text {
+}
+
+#console-messages,
+#console-view,
+#network-views .CodeMirror-lines,
+#script-view-fallback,
+.console-view-wrapper,
+.dialog .fill,
+.drawer .revision-history-drawer,
+.help-window-main,
+.panel .split-view-contents,
+.panel,
+.panel-enabler-view,
+.profiles-sidebar-tree-box,
+.resource-view .script-view,
+.sidebar-overlay,
+.split-view-vertical .sidebar-pane.composite .properties-tree,
+.styles-section.read-only,
+.tabbed-pane-content,
+.tabbed-pane-content.has-no-tabs .timeline-records-title,
+.timeline-records-list,
+#timeline-overview-sidebar {
+}
+
+.panel-enabler-view {
+}
+
+.panel .sidebar-tree-item.selected {
+}
+
+.panel .sidebar-tree-item:not(.selected):hover {
+}
+
+.panel .sidebar-tree-item .disclosure-button {
+}
+
+.panel .data-grid th {
+}
+
+.panel .status-bar {
+}
+
+.panel .status-bar-text {
+}
+
+body.dock-to-right.inactive:not(.undocked):not(.overlay-contents),
+body.dock-to-right:not(.undocked):not(.overlay-contents) {
+}
+
+.split-view.vbox > .split-view-sidebar.split-view-contents-second:not(.maximized) {
+}
+
+.tabbed-pane-content .settings-tab-text-button {
+  font-family: 宋体, sans-serif !important;
+}
+
+.tabbed-pane-content .settings-tab-text-button:disabled {
+}
+
+.tabbed-pane-content .settings-tab-text-button:not(:disabled):active {
+}
+
+.split-view.vbox > .split-view-resizer > .split-view-resizer-border,
+.split-view.hbox > .split-view-resizer > .split-view-resizer-border {
+}
+
+.sidebar {
+}
+
+.editing {
+}
+
+.styles-section.matched-styles .properties li.parent.expanded .expand-element,
+#console-messages .console-group-messages .section.expanded .header::before,
+#console-messages .properties-tree li.parent.expanded::before,
+.outline-disclosure li.parent.expanded::before,
+.properties-tree li.parent.expanded::before,
+.section.expanded > .header::before,
+.section .event-bar.expanded .header::before,
+.sidebar-pane .parent.expanded::before,
+.sidebar-pane-stack .sidebar-pane-title.expanded::before,
+.timeline-expandable-expanded .timeline-expandable-arrow,
+.styles-section.matched-styles .style-properties li.parent.expanded .expand-element {
+}
+
+.sidebar-pane-stack .sidebar-pane-title.expanded::before {
+}
+
+.styles-section.matched-styles .properties li.parent .expand-element,
+#console-messages .console-group-messages .section .header::before,
+#console-messages .properties-tree li.parent::before,
+.outline-disclosure li.parent::before,
+#search-results-pane-file-based .parent::before,
+.properties-tree li.parent::before,
+.section > .header::before,
+.section .event-bar .header::before,
+.sidebar-pane .parent::before,
+.sidebar-pane-stack .sidebar-pane-title::before,
+.timeline-expandable-collapsed .timeline-expandable-arrow,
+::shadow #search-results-pane-file-based .parent::before,
+.styles-section.matched-styles .style-properties li.parent .expand-element {
+}
+
+.data-grid th.sort-ascending > div::after {
+}
+
+.data-grid th.sort-descending > div::after {
+}
+
+#search-results-pane-file-based .parent.expanded::before,
+::shadow #search-results-pane-file-based .parent.expanded::before {
+}
+
+#search-results-pane-file-based .parent.expanded::before,
+::shadow #search-results-pane-file-based .parent.expanded::before {
+}
+
+#search-results-pane-file-based .parent::before,
+::shadow #search-results-pane-file-based .parent::before {
+}
+
+.panel.network .outline-disclosure li.parent::before {
+}
+
+.sidebar-tabbed-pane .section > .header::before,
+.event-bars .event-bar .header::before {
+}
+
+.status-bar-select-arrow {
+}
+
+#console-messages {
+  font-family: Monaco, sans-serif !important;
+}
+
+.console-message {
+}
+
+.console-message-wrapper {
+}
+
+.console-status-bar {
+}
+
+#console-prompt {
+}
+
+.console-user-command {
+}
+
+#console-messages .console-user-command > .console-message-text {
+  font-family: Monaco, sans-serif !important;
+}
+
+.console-adjacent-user-command-result {
+}
+
+.console-message .children li,
+.console-user-command .children li {
+}
+
+#console-messages .console-user-command > .console-message-text {
+  font-family: Monaco, sans-serif !important;
+}
+
+#console-messages .console-debug-level .console-message-text,
+#console-messages .console-debug-level .console-message-url {
+  font-family: Monaco, sans-serif !important;
+}
+
+#console-messages .console-debug-level .children div:hover * {
+}
+
+#console-messages .console-debug-level .section > .header .title {
+}
+
+#console-messages .console-debug-level .bubble,
+#console-messages .console-debug-level .bubble-repeat-count {
+}
+
+#console-messages .console-log-level .console-message-text,
+#console-messages .console-log-level .console-message-url {
+  font-family: Monaco, sans-serif !important;
+}
+
+#console-messages .console-log-level .children div:hover * {
+}
+
+#console-messages .console-log-level .section > .header .title {
+}
+
+#console-messages .console-log-level .bubble,
+#console-messages .console-log-level .bubble-repeat-count {
+}
+
+#console-messages .console-warning-level .console-message-text,
+#console-messages .console-warning-level .console-message-url {
+  font-family: Monaco, sans-serif !important;
+}
+
+#console-messages .console-warning-level .children div:hover * {
+}
+
+#console-messages .console-warning-level .section > .header .title {
+}
+
+#console-messages .console-warning-level .bubble,
+#console-messages .console-warning-level .bubble-repeat-count {
+}
+
+#console-messages .console-error-level .console-message-text,
+#console-messages .console-error-level .console-message-url {
+  font-family: Monaco, sans-serif !important;
+}
+
+#console-messages .console-error-level .children div:hover * {
+}
+
+#console-messages .console-error-level .section > .header .title {
+}
+
+#console-messages .console-error-level .bubble,
+#console-messages .console-error-level .bubble-repeat-count {
+}
+
+#console-messages .console-info-level .console-message-text,
+#console-messages .console-info-level .console-message-url {
+  font-family: Monaco, sans-serif !important;
+}
+
+#console-messages .console-info-level .children div:hover * {
+}
+
+#console-messages .console-info-level .section > .header .title {
+}
+
+#console-messages .console-info-level .bubble,
+#console-messages .console-info-level .bubble-repeat-count {
+}
+
+#console-messages .outline-disclosure .stacktrace-entry:hover {
+}
+
+#console-messages a {
+}
+
+#console-messages a:hover {
+}
+
+#console-messages .console-error-level::before {
+}
+
+#console-messages .console-message {
+}
+
+.console-message .bubble {
+}
+
+.console-formatted-node:hover {
+}
+
+.vbox.devices {
+}
+
+.vbox.devices a {
+}
+
+.console-message-wrapper {
+}
+
+.console-error-level {
+}
+
+.console-error-level + .console-error-level {
+}
+
+.console-warning-level {
+}
+
+.console-warning-level + .console-warning-level {
+}
+
+.console-object-preview .name {
+}
+
+.object-value-object,
+.object-value-map,
+.object-value-set,
+.object-value-iterator,
+.object-value-generator,
+.object-value-node,
+.object-value-array {
+}
+
+.object-value-number,
+.object-value-boolean {
+}
+
+.object-value-function {
+}
+
+.object-value-function::before {
+}
+
+.object-value-string {
+}
+
+.object-value-null {
+}
+
+.object-value-number {
+}
+
+.object-value-calculate-value-button {
+}
+
+.object-value-error {
+}
+
+::shadow .object-properties-section .name {
+}
+
+::shadow .object-properties-section .number {
+}
+
+::shadow .console-object-preview .name {
+}
+
+::shadow .object-value-object,
+::shadow .object-value-map,
+::shadow .object-value-set,
+::shadow .object-value-iterator,
+::shadow .object-value-generator,
+::shadow .object-value-node,
+::shadow .object-value-array {
+}
+
+::shadow .object-value-number,
+::shadow .object-value-boolean {
+}
+
+::shadow .object-value-function {
+}
+
+::shadow .object-value-function::before {
+}
+
+::shadow .object-value-string {
+}
+
+::shadow .object-value-null {
+}
+
+::shadow .object-value-number {
+}
+
+::shadow .object-value-calculate-value-button {
+}
+
+::shadow .object-value-error {
+}
+
+body /deep/ .link {
+}
+
+.source-code .CodeMirror {
+  font-family: Monaco, sans-serif !important;
+}
+
+.panel.elements #elements-content .CodeMirror {
+}
+
+.panel.elements ::shadow .outline-disclosure ol:focus li.selected .selection,
+.panel.console ::shadow .outline-disclosure ol:focus li.selected .selection,
+.panel.elements ::shadow .elements-disclosure ol:focus li.selected .selection,
+.panel.console ::shadow .elements-disclosure ol:focus li.selected .selection,
+.panel.elements ::shadow .outline-disclosure li.selected .selection,
+.panel.console ::shadow .outline-disclosure li.selected .selection,
+.panel.elements ::shadow .elements-disclosure li.selected .selection,
+.panel.console ::shadow .elements-disclosure li.selected .selection {
+}
+
+.panel.elements ::shadow .outline-disclosure li.hovered:not(.selected) .selection,
+.panel.console ::shadow .outline-disclosure li.hovered:not(.selected) .selection,
+.panel.elements ::shadow .elements-disclosure li.hovered:not(.selected) .selection,
+.panel.console ::shadow .elements-disclosure li.hovered:not(.selected) .selection {
+}
+
+.outline-disclosure li.in-clipboard .highlight {
+}
+
+.paint-profiler-overview,
+.paint-profiler-canvas-container canvas,
+.paint-profiler-view canvas {
+  font-family: 宋体, sans-serif !important;
+}
+
+.progress-banner {
+}
+
+.layers.panel .outline-disclosure li {
+}
+
+.layers.panel .selection {
+}
+
+.sidebar-tree li {
+}
+
+#network-container {
+}
+
+#network-container:not(.brief-mode) .network-log-grid.data-grid td.name-column:hover {
+}
+
+.data-grid {
+}
+
+.data-grid th.sort-ascending,
+.data-grid th.sort-descending,
+.data-grid th.sortable,
+.data-grid .timeline-column {
+}
+
+.data-grid .network-timeline-grid .resources-divider-label {
+}
+
+.data-grid .network-timeline-grid .resources-divider {
+}
+
+.highlighted-row {
+}
+
+.timeline-column option {
+}
+
+.resource-view.image .title {
+}
+
+.resource-view.image .infoList dt {
+}
+
+.resource-view.image .infoList dd {
+}
+
+.request-headers-view .header-name {
+  font-family: Monaco, sans-serif !important;
+}
+
+::shadow .request-headers-view .header-value {
+  font-family: Monaco, sans-serif !important;
+}
+
+.request-headers-view .caution {
+}
+
+.resource-source-frame-fallback {
+}
+
+.resource-timing-view table {
+}
+
+.resource-timing-view table td .network-timing-bar-title {
+}
+
+.resource-timing-view .network-timing-table .footnote a,
+.resource-timing-view .network-timing-table .network-timing-footer a {
+}
+
+#network-views .request-headers-view .parent,
+.network .request-headers-view .parent {
+}
+
+#network-views .script-view-fallback {
+}
+
+.request-headers-view .outline-disclosure .header-count,
+.request-headers-view .outline-disclosure .header-toggle {
+}
+
+.request-headers-view .outline-disclosure .header-toggle:hover {
+}
+
+.network-cell-subtitle {
+}
+
+.network-log-grid.data-grid th {
+}
+
+.network.panel .panel-status-bar {
+}
+
+.data-grid .network-error-row,
+.data-grid .network-error-row > td,
+.data-grid .network-error-row .network-cell-subtitle {
+}
+
+.panel:not(.timeline):not(.audits):not(.profiles):not(.cpu-profiler):not(.css-profiler):not(.heap-profiler):not(.canvas-profiler) table,
+.network-graph-bar,
+.network-graph-label,
+.network-graph-bar-area {
+  font-family: 宋体, sans-serif !important;
+}
+
+.network-summary-bar {
+}
+
+.network-log-grid.data-grid .bottom-filler-td {
+}
+
+#network-views .resource-view.html {
+}
+
+#profile-views .data-grid td > div,
+.profile-launcher-view label,
+.retainers-view-header,
+.profile-launcher-view-tree-item,
+.sidebar-tree-section,
+.resources-divider-label,
+.panel:not(.timeline) .sidebar-tree-item,
+.profile-entry-info,
+::shadow .flame-chart-entry-info {
+}
+
+.profile-entry-info,
+::shadow .flame-chart-entry-info {
+}
+
+#profile-views .data-grid button {
+  font-family: 宋体, sans-serif !important;
+}
+
+.heap-snapshot-view tr:not(.selected) td.object-column span.highlight {
+}
+
+.profiles-status-bar {
+  font-family: 宋体, sans-serif !important;
+}
+
+.profiles-status-bar .status-bar {
+  font-family: 宋体, sans-serif !important;
+}
+
+.profiles-status-bar .status-bar,
+.retainers-view-header,
+.heap-snapshot-view .class-view-toolbar {
+}
+
+input.status-bar-item {
+}
+
+input.status-bar-item:hover,
+input.status-bar-item:focus {
+}
+
+.heap-snapshot-view .heap-snapshot-view-resizer {
+}
+
+#profile-views .data-container .object-column {
+  font-family: 宋体, sans-serif !important;
+}
+
+#profile-views .data-container .object-column button {
+  font-family: 宋体, sans-serif !important;
+}
+
+#profile-views .data-container .object-column button:disabled {
+}
+
+#profile-views .data-container .object-column button:not(:disabled):active {
+}
+
+.data-grid td,
+.heap-snapshot-stats-name,
+.heap-snapshot-stats-size {
+}
+
+.resources-status-bar .status-bar {
+}
+
+.database-query-prompt {
+}
+
+.database-user-query {
+}
+
+.database-user-query + span {
+}
+
+.database-user-query .database-query-text {
+}
+
+.database-user-query::before,
+.database-query-result::before {
+}
+
+.database-user-query .error {
+}
+
+.indexed-db-database-view .outline-disclosure .attribute-name {
+}
+
+.indexed-db-database-view .outline-disclosure .attribute-value {
+}
+
+.help-window-main {
+}
+
+.help-window-main .settings-tab-container header {
+  font-family: 宋体, sans-serif !important;
+}
+
+.help-window-main .help-footnote {
+}
+
+.help-window-main label,
+.help-window-main label:hover {
+}
+
+.help-window-main .tabbed-pane-header-tab.selected {
+}
+
+.help-window-main .help-section-title {
+}
+
+.help-window-main .help-block label,
+.help-window-main .help-block td {
+}
+
+.help-window-main select,
+.help-window-main input,
+.help-window-main option {
+}
+
+.help-window-main select:disabled,
+.help-window-main input:disabled,
+.help-window-main option:disabled {
+}
+
+.help-window-main select:focus,
+.help-window-main input:focus,
+.help-window-main option:focus {
+}
+
+.help-window-main fieldset:disabled label {
+}
+
+.help-window-main select:disabled,
+.help-window-main input:disabled,
+.help-window-main .settings-tab-text-button:disabled {
+}
+
+.help-window-main .help-key-cell .help-key {
+}
+
+.help-window-main .help-key-cell span {
+}
+
+.help-window-main .settings-list-container {
+  font-family: 宋体, sans-serif !important;
+}
+
+.help-window-main .settings-list {
+  font-family: 宋体, sans-serif !important;
+}
+
+.help-window-main .settings-list-item {
+  font-family: 宋体, sans-serif !important;
+}
+
+.help-window-main .settings-list-item.selected {
+}
+
+.help-window-main .settings-list-item:nth-child(1) {
+}
+
+.help-window-main .settings-list-item:last-child {
+}
+
+.help-window-main .file-system-path-name {
+}
+
+.file-system-path,
+.list-column-text,
+.settings-list-column-path {
+}
+
+.list-column-editor {
+}
+
+.settings-dialog {
+  font-family: 宋体, sans-serif !important;
+}
+
+.settings-dialog .dialog-contents label {
+  font-family: 宋体, sans-serif !important;
+}
+
+.settings-dialog .dialog-contents .header {
+  font-family: 宋体, sans-serif !important;
+}
+
+.settings-dialog .dialog-contents .block-header {
+  font-family: 宋体, sans-serif !important;
+}
+
+.settings-dialog .settings-list-container {
+  font-family: 宋体, sans-serif !important;
+}
+
+.settings-dialog .settings-list {
+  font-family: 宋体, sans-serif !important;
+}
+
+.settings-dialog .settings-list-item {
+  font-family: 宋体, sans-serif !important;
+}
+
+.settings-dialog .add-list-item {
+  font-family: 宋体, sans-serif !important;
+}
+
+.settings-dialog .file-mappings-list .settings-list-item:first-child,
+.settings-dialog .excluded-folders-section .settings-list-item:first-child {
+}
+
+.swatch {
+}
+
+.blackbox-dialog .columns-header {
+}
+
+.devices-list {
+}
+
+.devices-title {
+}
+
+.devices-list-item {
+}
+
+.devices-list-item:hover {
+}
+
+.devices-list-item .devices-list-title {
+}
+
+.devices-list-item.device-list-item-show .devices-list-title {
+}
+
+.devices-edit-container {
+}
+
+.devices-custom-separator {
+}
+
+.devices-list-edit,
+.devices-list-remove {
+}
+
+.devices-list-edit {
+}
+
+.devices-list-remove {
+}
+
+.tabbed-pane-placeholder,
+::shadow .tabbed-pane-placeholder {
+}
+
+.source-frame-unsaved-committed-changes {
+}
+
+.source-frame-debugger-script {
+}
+
+.sidebar-pane {
+}
+
+.sidebar-pane .breakpoints-list-deactivated {
+}
+
+.sidebar-pane .breakpoint-list li {
+}
+
+.sidebar-pane .breakpoint-list li:not(.breakpoint-hit):hover {
+}
+
+.sidebar-pane .breakpoint-hit {
+}
+
+.sidebar-pane .placard .title,
+.sidebar-pane .placard .subtitle,
+.sidebar-pane ::shadow .list-item .title,
+.sidebar-pane ::shadow .list-item .subtitle {
+}
+
+.sidebar-pane .placard:nth-of-type(2n),
+.sidebar-pane ::shadow .list-item:nth-of-type(2n) {
+}
+
+.sidebar-pane .placard.selected,
+.sidebar-pane ::shadow .list-item.selected {
+}
+
+.sidebar-pane .placard.selected .title,
+.sidebar-pane .placard.selected .subtitle,
+.sidebar-pane ::shadow .list-item.selected .title,
+.sidebar-pane ::shadow .list-item.selected .subtitle {
+}
+
+.sidebar-pane .hidden-placards-message,
+.sidebar-pane .callstack-info.status {
+}
+
+.sidebar-pane .hidden-placards-message .node-link,
+.sidebar-pane .callstack-info.status .node-link {
+}
+
+.sidebar-pane > .body .placard + .info,
+.sidebar-pane > .body ::shadow .list-item + .info {
+}
+
+.breakpoints-deactivated .breakpoint-list {
+}
+
+.sidebar-pane-title {
+}
+
+.sidebar-pane-stack > .sidebar-pane.visible:nth-last-of-type(1) {
+}
+
+.sidebar-pane .children.expanded,
+li.breakpoint-hit .breakpoint-hit-marker {
+}
+
+.pane-title-button.add,
+.sidebar-pane-toolbar > .pane-title-button.refresh {
+}
+
+.pane-title-button.add {
+}
+
+.sidebar-pane-toolbar > .pane-title-button.refresh {
+}
+
+.panel.elements .sidebar-pane .sidebar-pane-toolbar .pane-title-button.element-state,
+.panel.elements .sidebar-pane .sidebar-pane-toolbar .pane-title-button.animations-controls,
+.panel.elements .sidebar-pane .sidebar-pane-toolbar .pane-title-button.add {
+}
+
+.panel.elements .sidebar-pane .sidebar-pane-toolbar > .pane-title-button.element-state,
+.panel.elements .sidebar-pane .sidebar-pane-toolbar > .pane-title-button.animations-controls,
+.panel.elements .sidebar-pane .sidebar-pane-toolbar > .pane-title-button.add {
+}
+
+.panel.elements .sidebar-pane-toolbar > select > option,
+.panel.elements .sidebar-pane-toolbar > select > hr {
+}
+
+.panel.elements .sidebar-pane-toolbar > select.select-settings {
+}
+
+.panel.elements .sidebar-pane-toolbar .pane-title-button.element-state {
+}
+
+.panel.elements .sidebar-pane-toolbar .pane-title-button.animations-controls {
+}
+
+.panel.elements .sidebar-pane-toolbar .pane-title-button.animations-controls {
+}
+
+.panel.elements .sidebar-pane-toolbar .pane-title-button.element-state,
+.panel.elements .sidebar-pane-toolbar .pane-title-button.animations-controls,
+.panel.elements .sidebar-pane-toolbar .pane-title-button.add {
+}
+
+.webkit-highlighted-line.webkit-line-content {
+}
+
+.webkit-highlighted-line.webkit-line-content * {
+}
+
+.scripts-pause-on-exceptions-status-bar-item.toggled-all .glyph {
+}
+
+.scripts-pause-on-exceptions-status-bar-item.toggled-uncaught .glyph {
+}
+
+.webkit-highlighted-line {
+}
+
+.alternate-status-bar-buttons-bar .scripts-pause,
+.alternate-status-bar-buttons-bar .scripts-long-resume,
+.alternate-status-bar-buttons-bar .status-bar-item {
+}
+
+.alternate-status-bar-buttons-bar .status-bar-item.emulate-active {
+}
+
+.properties-tree li,
+.outline-disclosure li::before,
+.properties-tree li.parent {
+}
+
+.event-listener-breakpoints.properties-tree li {
+}
+
+.event-listener-breakpoints.properties-tree li:before {
+}
+
+.event-listener-breakpoints.properties-tree li .checkbox-elem {
+}
+
+.event-listener-breakpoints.properties-tree li.parent .checkbox-elem {
+}
+
+.source-frame-infobar {
+}
+
+.source-frame-infobar-toggle-link {
+}
+
+.sidebar-pane-button-new-rule {
+}
+
+.sidebar-pane-button-new-rule:hover {
+}
+
+.text-editor-value-decoration {
+}
+
+.scripts-status-bar {
+}
+
+.scripts-debug-toolbar {
+}
+
+.help-indent-labels label {
+}
+
+.scripts-debug-toolbar-drawer {
+}
+
+.CodeMirror .webkit-html-message-bubble {
+}
+
+.CodeMirror-linewidget .source-frame-breakpoint-condition {
+}
+
+.CodeMirror-linewidget .source-frame-breakpoint-condition input {
+}
+
+.CodeMirror-linewidget .source-frame-breakpoint-message {
+}
+
+.CodeMirror-linewidget #source-frame-breakpoint-condition {
+}
+
+.timeline .panel-status-bar {
+}
+
+.timeline-category-statusbar-item,
+.timeline-records-stats,
+.record-title,
+.timeline-aggregated-category {
+}
+
+#timeline-graphs .timeline-graph-side.hovered,
+.timeline-records-list .timeline-tree-item.hovered:not(.selected) {
+}
+
+#timeline-graphs .timeline-graph-side.selected,
+.timeline-records-list .timeline-tree-item.selected {
+}
+
+.timeline-records-list .timeline-tree-item {
+}
+
+.timeline-records-list .timeline-tree-item .data.dimmed {
+}
+
+.sidebar-tree-section {
+}
+
+.timeline-tree-item.selected .timeline-tree-item-expand-arrow,
+.timeline-tree-item-expand-arrow {
+}
+
+#counter-values-bar,
+#memory-graphs-container .sidebar-tree-section,
+.timeline-records-title,
+.timeline-details-view-title {
+}
+
+#counter-values-bar {
+}
+
+.timeline-aggregated-info-legend > div,
+.memory-counter-sidebar-info {
+}
+
+.timeline-details-view-row-title {
+}
+
+.timeline-details-view-title {
+}
+
+.timeline-details-view-row-value,
+.timeline-details-view-row-stack-trace {
+}
+
+.timeline-details-view-row .timeline-details-view-row-stack-trace .webkit-html-resource-link {
+}
+
+#timeline-overview-sidebar {
+}
+
+#timeline-overview-sidebar .sidebar-tree-item:hover {
+}
+
+#timeline-overview-sidebar .sidebar-tree-item.selected {
+}
+
+#timeline-overview-sidebar .sidebar-tree-item.selected .icon {
+}
+
+#timeline-overview-sidebar .sidebar-tree-item.selected .title {
+}
+
+#timeline-overview-sidebar .icon {
+}
+
+#timeline-overview-sidebar .title {
+}
+
+.timeline-cpu-curtain-left,
+.timeline-cpu-curtain-right {
+}
+
+.timeline-expandable {
+}
+
+.timeline-expandable-left {
+}
+
+.timeline-utilization-strip .timeline-graph-bar {
+}
+
+#timeline-overview-panel {
+}
+
+.timeline .resources-event-divider.timeline-frame-divider,
+.resources-divider {
+}
+
+.panel:not(.network) .resources-dividers-label-bar {
+}
+
+.panel #timeline-grid-header .resources-dividers-label-bar {
+}
+
+.overview-grid-dividers-background {
+}
+
+#timeline-overview-container {
+}
+
+#timeline-overview-container canvas {
+}
+
+.overview-grid-window-resizer {
+}
+
+.overview-grid-window-rulers {
+}
+
+.timeline-frame-strip {
+}
+
+.overview-grid-dividers-background {
+}
+
+.overview-grid-window {
+}
+
+#memory-counters-graph {
+}
+
+.timeline-frame-container {
+}
+
+#timeline-overview-panel .split-view-sidebar > label {
+}
+
+.timeline-range-summary > div {
+}
+
+.pie-chart-foreground {
+}
+
+.timeline-progress-pane {
+}
+
+.popover {
+}
+
+.popover .arrow {
+}
+
+.popover .content {
+}
+
+.popover .content .source-frame-popover-title {
+}
+
+.popover .content .source-frame-popover-tree {
+}
+
+.popover .content .popover-details-title {
+}
+
+.popover .content .popover-details-row-title {
+}
+
+.popover .content .network-timing-bar {
+}
+
+.popover .content .network-timing-bar-title {
+}
+
+.popover a.undefined {
+}
+
+.webkit-line-content .text-editor-overlay-highlight {
+}
+
+.spectrum-container {
+}
+
+.spectrum-container .swatch {
+}
+
+.spectrum-range-container {
+}
+
+.spectrum-range-container input {
+}
+
+.bezier-icon {
+}
+
+.bezier-icon path {
+}
+
+::shadow .bezier-preview-container {
+}
+
+::shadow .bezier-preview-animation {
+}
+
+::shadow .bezier-curve circle.bezier-control-circle {
+}
+
+::shadow .bezier-curve line.bezier-control-line {
+}
+
+::shadow .bezier-curve line.bezier-control-accent {
+}
+
+::shadow .bezier-curve line.linear-line {
+}
+
+::shadow .bezier-curve path.bezier-path {
+}
+
+.text-editor .inner-container .webkit-line-content,
+.text-editor-lines .inner-container .webkit-line-number,
+.styles-section .properties li,
+.CodeMirror-lines,
+#search-results-pane-file-based .search-match,
+::shadow #search-results-pane-file-based .search-match {
+}
+
+.panel.elements .outline-disclosure li.parent::before {
+}
+
+.screencast {
+}
+
+.screencast .screencast-viewport {
+}
+
+.screencast .screencast-navigation button {
+}
+
+.screencast .screencast-navigation button.back {
+}
+
+.screencast .screencast-navigation button.forward {
+}
+
+.screencast .screencast-navigation button.reload {
+}
+
+.screencast .screencast-navigation button[disabled] {
+}
+
+.screencast .screencast-navigation .progress {
+}
+
+.screencast .screencast-navigation input {
+}
+
+::-webkit-scrollbar,
+.CodeMirror-scrollbar-filler,
+.CodeMirror-gutter-filler {
+}
+
+::-webkit-scrollbar-track:horizontal,
+.custom-popup-horizontal-scroll ::-webkit-scrollbar-track:horizontal,
+.custom-popup-vertical-scroll ::-webkit-scrollbar-track:horizontal,
+.custom-popup-vertical-scroll .custom-popup-horizontal-scroll ::-webkit-scrollbar-track:horizontal,
+.custom-popup-horizontal-scroll .custom-popup-vertical-scroll ::-webkit-scrollbar-track:horizontal {
+}
+
+::-webkit-scrollbar-track:vertical,
+.custom-popup-horizontal-scroll ::-webkit-scrollbar-track:vertical,
+.custom-popup-vertical-scroll ::-webkit-scrollbar-track:vertical,
+.custom-popup-vertical-scroll .custom-popup-horizontal-scroll ::-webkit-scrollbar-track:vertical,
+.custom-popup-horizontal-scroll .custom-popup-vertical-scroll ::-webkit-scrollbar-track:vertical {
+}
+
+::-webkit-scrollbar-corner,
+.CodeMirror-scrollbar-filler,
+.CodeMirror-gutter-filler {
+}
+
+::-webkit-scrollbar-thumb {
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+}
+
+::-webkit-scrollbar-thumb:vertical {
+}
+
+.custom-popup-horizontal-scroll ::-webkit-scrollbar-track,
+.custom-popup-vertical-scroll ::-webkit-scrollbar-track,
+.custom-popup-vertical-scroll .custom-popup-horizontal-scroll ::-webkit-scrollbar-track,
+.custom-popup-horizontal-scroll .custom-popup-vertical-scroll ::-webkit-scrollbar-track {
+}
+
+.custom-popup-horizontal-scroll ::-webkit-scrollbar-thumb {
+}
+
+.custom-popup-vertical-scroll ::-webkit-scrollbar-track-piece:vertical {
+}
+
+.custom-popup-horizontal-scroll ::-webkit-scrollbar-track-piece:horizontal {
+}
+
+.custom-popup-horizontal-scroll ::-webkit-scrollbar-thumb:horizontal:active,
+.custom-popup-horizontal-scroll ::-webkit-scrollbar-thumb:horizontal:hover,
+.custom-popup-horizontal-scroll ::-webkit-scrollbar-track-piece:horizontal:decrement,
+.custom-popup-horizontal-scroll ::-webkit-scrollbar-track-piece:horizontal:increment,
+.custom-popup-vertical-scroll ::-webkit-scrollbar-thumb:vertical:active,
+.custom-popup-vertical-scroll ::-webkit-scrollbar-thumb:vertical:hover,
+.custom-popup-vertical-scroll ::-webkit-scrollbar-track-piece:vertical:decrement,
+.custom-popup-vertical-scroll ::-webkit-scrollbar-track-piece:vertical:increment {
+}
+
+.custom-popup-horizontal-scroll ::-webkit-scrollbar,
+.custom-popup-vertical-scroll ::-webkit-scrollbar {
+}
+
+.styles-section {
+  font-family: Monaco, sans-serif !important;
+}
+
+.styles-section:first-child {
+}
+
+.styles-section.read-only:not(.computed-style) {
+}
+
+.styles-section .value {
+  font-family: Monaco, sans-serif !important;
+}
+
+.styles-section .child-editing,
+.styles-section .header .subtitle {
+  font-family: Monaco, sans-serif !important;
+}
+
+.styles-section .properties .overloaded,
+.styles-section .properties .inactive,
+.styles-section .properties .disabled,
+.styles-section .properties .not-parsed-ok {
+  font-family: Monaco, sans-serif !important;
+}
+
+.event-bars .event-bar .header .title {
+}
+
+.sidebar-pane {
+}
+
+.sidebar-pane .body,
+.sidebar-pane .monospace {
+  font-family: Monaco, sans-serif !important;
+}
+
+.sidebar-pane .section.expanded > .header {
+}
+
+.sidebar-pane .section.expanded > .properties-tree {
+}
+
+.sidebar-pane .metrics {
+  font-family: Monaco, sans-serif !important;
+}
+
+.sidebar-pane .metrics .position {
+}
+
+.sidebar-pane .metrics .position,
+.sidebar-pane .metrics .margin:not([style^=background-color]),
+.sidebar-pane .metrics .border:not([style^=background-color]),
+.sidebar-pane .metrics .padding:not([style^=background-color]),
+.sidebar-pane .metrics .margin:not([style^=background-color]),
+.sidebar-pane .metrics .content:not([style^=background-color]) {
+}
+
+.sidebar-pane .section:first-child {
+}
+
+.styles-section.first-styles-section,
+.sidebar-separator + .styles-section {
+  font-family: Monaco, sans-serif !important;
+}
+
+.sidebar-separator {
+}
+
+.styles-element-state-pane {
+}
+
+.styles-element-state-pane.expanded {
+}
+
+.sidebar-pane-stack .event-category,
+.sidebar-pane .section,
+.events-pane > ol > li.parent {
+}
+
+.panel:not(.elements):not(.console) {
+}
+
+.panel:not(.elements):not(.console) .base-storage-tree-element-title,
+.panel:not(.elements):not(.console) .base-storage-tree-element-subtitle,
+.panel:not(.elements):not(.console) .base-navigator-tree-element-title {
+  font-family: 宋体, sans-serif !important;
+}
+
+.panel:not(.elements):not(.console) .selected .base-storage-tree-element-title,
+.panel:not(.elements):not(.console) .selected .base-storage-tree-element-subtitle,
+.panel:not(.elements):not(.console) .selected .base-navigator-tree-element-title {
+  font-family: 宋体, sans-serif !important;
+}
+
+.panel:not(.elements):not(.console) .sidebar li {
+}
+
+.panel:not(.elements):not(.console) .outline-disclosure li.selected .selection {
+}
+
+.panel:not(.elements):not(.console) .outline-disclosure li:hover:not(.selected) .selection,
+.panel:not(.elements):not(.console) .outline-disclosure li.hovered:not(.selected) .selection {
+}
+
+.panel:not(.elements):not(.console) .outline-disclosure ol:focus li.selected .selection {
+}
+
+.panel:not(.elements):not(.console) .sidebar-overlay {
+}
+
+.sidebar li.selected .selection {
+}
+
+select.status-bar-item,
+select.status-bar-item:hover,
+::shadow select.status-bar-item,
+.toolbar::shadow select.toolbar-item,
+.toolbar::shadow select.toolbar-item:hover,
+::shadow .toolbar::shadow select.toolbar-item {
+  font-family: 宋体, sans-serif !important;
+}
+
+select.status-bar-item option,
+.toolbar::shadow select.toolbar-item option {
+  font-family: 宋体, sans-serif !important;
+}
+
+.status-bar-items {
+}
+
+.status-bar label[for=search-replace-trigger],
+#bottom-status-bar-container .type,
+#bottom-status-bar-container .timeline-records-stats,
+.source-frame-cursor-position,
+.search-status-bar-summary .search-message,
+.search-results-status-bar-message,
+::shadow .search-status-bar-summary .search-message {
+}
+
+button.scripts-step-over .glyph .toggled-on .long-click-glyph,
+button.scripts-step-into .glyph .toggled-on .long-click-glyph,
+button.scripts-step-out .glyph .toggled-on .long-click-glyph,
+.filters-toggle.toggled-active .glyph .toggled-on .long-click-glyph,
+button.status-bar-item.toggled-on .glyph .toggled-on .long-click-glyph,
+button.status-bar-item.toggled-on .glyph:not(.shadow) .toggled-on .long-click-glyph,
+button.clear-status-bar-item:active .glyph .toggled-on .long-click-glyph,
+button.garbage-collect-status-bar-item:active .glyph .toggled-on .long-click-glyph,
+button.glue-async-status-bar-item:active .glyph .toggled-on .long-click-glyph,
+.filters-toggle.toggled-shown .glyph .toggled-on .long-click-glyph,
+::shadow .toggled-on .long-click-glyph {
+}
+
+button.scripts-step-over .glyph .long-click-glyph,
+button.scripts-step-into .glyph .long-click-glyph,
+button.scripts-step-out .glyph .long-click-glyph,
+.filters-toggle.toggled-active .glyph .long-click-glyph,
+button.status-bar-item.toggled-on .glyph .long-click-glyph,
+button.status-bar-item.toggled-on .glyph:not(.shadow) .long-click-glyph,
+button.clear-status-bar-item:active .glyph .long-click-glyph,
+button.garbage-collect-status-bar-item:active .glyph .long-click-glyph,
+button.glue-async-status-bar-item:active .glyph .long-click-glyph,
+.filters-toggle.toggled-shown .glyph .long-click-glyph,
+::shadow .long-click-glyph {
+}
+
+.toolbar-background button.status-bar-item .glyph,
+.toolbar-background button.status-bar-item .long-click-glyph {
+}
+
+#scripts-debugger-status {
+}
+
+button.scripts-step-over:disabled .glyph,
+button.scripts-step-into:disabled .glyph,
+button.scripts-step-out:disabled .glyph {
+}
+
+.sources-status-bar,
+.panel-status-bar,
+.resources-status-bar .status-bar,
+.overrides-footer,
+.status-bar,
+::shadow .search-bar {
+}
+
+.checkbox-filter-checkbox,
+label.checkbox,
+.checkbox-filter-checkbox-check,
+.filter-checkbox-filter .type,
+#text-filter-regex + label {
+}
+
+.checkbox-filter-checkbox {
+}
+
+.filter-bitset-filter li {
+  font-family: 宋体, sans-serif !important;
+}
+
+.status-bar-select-arrow {
+}
+
+.event-listener-breakpoints .checkbox-elem {
+}
+
+.save-device-button,
+.remove-device-button {
+}
+
+.save-device-button:disabled,
+.remove-device-button:disabled {
+}
+
+.save-device-button:not(:disabled):active,
+.remove-device-button:not(:disabled):active {
+}
+
+.suggest-box {
+}
+
+.suggest-box-content-item.source-code:hover {
+}
+
+.suggest-box-content-item.source-code.selected {
+}
+
+.suggest-box .source-code .prefix {
+}
+
+.suggest-box .source-code .suffix {
+}
+
+.cm-js-atom {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-js-attribute {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-js-builtin {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-js-comment {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-js-def {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-js-error {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-js-header {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-js-hr {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-js-keyword {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-js-link {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-js-meta {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-js-number,
+.section .properties .number,
+.event-properties .number {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-js-operator {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-js-property {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-js-string {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-js-string-2 {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-js-tag {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-js-variable {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-js-variable-2 {
+  font-family: Monaco, sans-serif !important;
+}
+
+.source-frame-eval-expression {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-atom {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-comment {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-variable {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-string {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-keyword {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-number {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-operator {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-error {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-s-default .cm-property {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-css-atom {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-css-builtin {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-css-def {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-css-comment {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-css-meta {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-css-number {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-css-operator {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-css-property {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-css-qualifier {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-css-string {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-css-string-2 {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-css-tag {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-css-variable {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-css-variable-2 {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-xml-comment {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-xml-error {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-xml-string {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-xml-tag {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-xml-attribute {
+  font-family: Monaco, sans-serif !important;
+}
+
+.cm-xml-link {
+  font-family: Monaco, sans-serif !important;
+}
+
+::shadow .webkit-html-fragment {
+  font-family: Monaco, sans-serif !important;
+}
+
+.outline-disclosure ol li .highlight {
+  font-family: Monaco, sans-serif !important;
+}
+
+.CodeMirror-code {
+  font-family: Monaco, sans-serif !important;
+}
+
+.webkit-html-attribute-name {
+  font-family: Monaco, sans-serif !important;
+}
+
+.webkit-html-attribute-value {
+  font-family: Monaco, sans-serif !important;
+}
+
+.webkit-html-comment {
+  font-family: Monaco, sans-serif !important;
+}
+
+.webkit-html-resource-link,
+.webkit-html-external-link {
+  font-family: Monaco, sans-serif !important;
+}
+
+.webkit-html-tag,
+.webkit-html-tag-name {
+  font-family: Monaco, sans-serif !important;
+}
+
+.webkit-html-text-node,
+.webkit-html-css-node,
+.webkit-html-js-node {
+  font-family: Monaco, sans-serif !important;
+}
+
+.webkit-html-pseudo-element {
+  font-family: Monaco, sans-serif !important;
+}
+
+.selector-matches {
+  font-family: Monaco, sans-serif !important;
+}
+
+.webkit-css-selector {
+  font-family: Monaco, sans-serif !important;
+}
+
+.webkit-css-at-rule {
+  font-family: Monaco, sans-serif !important;
+}
+
+.webkit-css-color {
+  font-family: Monaco, sans-serif !important;
+}
+
+.webkit-css-comment {
+  font-family: Monaco, sans-serif !important;
+}
+
+.webkit-css-important {
+  font-family: Monaco, sans-serif !important;
+}
+
+.webkit-css-keyword {
+  font-family: Monaco, sans-serif !important;
+}
+
+.webkit-css-number {
+  font-family: Monaco, sans-serif !important;
+}
+
+.webkit-css-property,
+.styles-section .properties > li .webkit-css-property {
+  font-family: Monaco, sans-serif !important;
+}
+
+.webkit-css-string {
+  font-family: Monaco, sans-serif !important;
+}
+
+.webkit-css-url {
+  font-family: Monaco, sans-serif !important;
+}
+
+.section .properties .name,
+.event-properties .name,
+.console-formatted-object .name {
+}
+
+.console-formatted-object,
+.console-formatted-array {
+}
+
+.console-formatted-function {
+}
+
+.console-formatted-number {
+}
+
+.console-formatted-boolean {
+}
+
+.console-object-preview {
+}
+
+.console-formatted-regexp {
+}
+
+.console-formatted-string {
+}
+
+.console-formatted-undefined {
+}
+
+.json .title {
+}
+
+.json .separator {
+}
+
+.popover .parent + .children.expanded,
+#console-messages .parent + .children.expanded,
+.sidebar-pane .parent:not(.event-category) + .children.expanded {
+}
+
+.section .properties .dimmed {
+}
+
+.data-grid {
+}
+
+.data-grid th,
+.data-grid .data {
+}
+
+.data-grid .header {
+}
+
+.data-grid .header th {
+}
+
+.data-grid .header .key-column,
+.data-grid .header .value-column {
+}
+
+.data-grid td {
+}
+
+.data-grid .data-container a {
+}
+
+.data-grid .data-container tr:nth-child(odd) {
+}
+
+.data-grid .data-container tr:nth-child(even) {
+}
+
+.data-grid .data-container tr:not(.selected):not(.filler):hover {
+}
+
+.data-grid .data-container tr.selected {
+}
+
+.data-grid .data-container tr .editing * {
+}
+
+::shadow .tabbed-pane-header {
+  font-family: 宋体, sans-serif !important;
+}
+
+::shadow .tabbed-pane-header-tab {
+}
+
+::shadow .tabbed-pane-header-tab:hover {
+}
+
+::shadow .tabbed-pane-header-tab.selected {
+}
+
+::shadow .tabbed-pane-header-contents {
+}
+
+::shadow .tabbed-pane-header-tabs-drop-down-container {
+}
+
+::shadow .tabbed-pane-content {
+}
+
+::shadow .search-drawer-header label.search-config-label {
+}
+
+::shadow .status-bar-item > .glyph,
+::shadow .shadow-split-view button.sidebar-show-hide-button {
+}
+
+::shadow .status-bar-item[disabled] {
+}
+
+::shadow button.status-bar-item.toggled-on .glyph,
+::shadow .filter-status-bar-item.toggled-shown .glyph,
+::shadow button.status-bar-item:not([disabled]):active .glyph {
+}
+
+::shadow .shadow-split-view.hbox.shadow-split-view-first-is-sidebar > .shadow-split-view-sidebar:not(.maximized) {
+}
+
+::shadow .shadow-split-view.hbox > .shadow-split-view-sidebar:not(.maximized) {
+}
+
+::shadow .shadow-split-view.vbox > .shadow-split-view-resizer > .shadow-split-view-resizer-border {
+}
+
+.inspector-view-tabbed-pane.tabbed-pane::shadow .tabbed-pane-header {
+}
+
+.inspector-view-tabbed-pane.tabbed-pane::shadow .tabbed-pane-header-tabs-drop-down-container {
+}
+
+.inspector-view-tabbed-pane.tabbed-pane::shadow .tabbed-pane-header-contents .tabbed-pane-header-tab {
+}
+
+body.undocked.platform-mac.inactive .inspector-view-tabbed-pane.tabbed-pane::shadow .tabbed-pane-header,
+body.undocked.platform-mac .inspector-view-tabbed-pane.tabbed-pane::shadow .tabbed-pane-header,
+body.platform-mac.inactive .inspector-view-tabbed-pane.tabbed-pane::shadow .tabbed-pane-header,
+body.platform-mac .inspector-view-tabbed-pane.tabbed-pane::shadow .tabbed-pane-header,
+body .inspector-view-tabbed-pane.tabbed-pane::shadow .tabbed-pane-header {
+}
+
+.platform-mac {
+}
+
+.panel .status-bar::shadow .status-bar-shadow {
+}
+
+.tabbed-pane-header-before::shadow .status-bar-shadow,
+.tabbed-pane-header-after::shadow .status-bar-shadow {
+}
+
+#drawer-contents .tabbed-pane-header,
+.inactive #drawer-contents .tabbed-pane-header {
+}
+
+select.tabbed-pane-header-tabs-drop-down-select {
+}
+
+.toolbar .tabbed-pane-header .tabbed-pane-header-tab {
+}
+
+.toolbar .tabbed-pane-header .tabbed-pane-header-tabs-drop-down {
+}
+
+.toolbar .toolbar-controls-left,
+.toolbar .toolbar-controls-right {
+}
+
+#network-views .network-item-view .tabbed-pane-header {
+}
+
+#network-views .network-item-view .tabbed-pane-header .tabbed-pane-header-tab {
+}
+
+#network-views .network-item-view .tabbed-pane-header .tabbed-pane-header-tab-title {
+}
+
+#network-views.small .network-item-view .tabbed-pane-header .tabbed-pane-header-tab-title {
+}
+
+.tabbed-pane-header-tabs-drop-down {
+}
+
+.split-view.hbox > .split-view-sidebar.split-view-contents-second:not(.maximized) {
+}
+
+.split-view.hbox > .split-view-sidebar.split-view-contents-first:not(.maximized) {
+}
+
+.tabbed-pane-header-tab {
+}
+
+.filter-bitset-filter li,
+.filter-bitset-filter li.selected,
+.filter-bitset-filter li:hover,
+.filter-bitset-filter li:active {
+}
+
+.filter-bitset-filter li:hover {
+}
+
+.filter-bitset-filter li.selected {
+  font-family: 宋体, sans-serif !important;
+}
+
+.filter-bitset-filter li.selected.error {
+  font-family: 宋体, sans-serif !important;
+}
+
+.filter-bitset-filter li.selected.warning {
+  font-family: 宋体, sans-serif !important;
+}
+
+.filter-bitset-filter li.selected.info {
+  font-family: 宋体, sans-serif !important;
+}
+
+.filter-bitset-filter li.selected.log {
+  font-family: 宋体, sans-serif !important;
+}
+
+.filter-bitset-filter li.selected.debug {
+  font-family: 宋体, sans-serif !important;
+}
+
+.network-filters-header,
+.console-filters-header,
+.timeline-filters-header {
+}
+
+.filter-bitset-filter-divider {
+}
+
+.status-bar-counter,
+body .inspector-view-toolbar.status-bar::shadow .status-bar-item {
+}
+
+.status-bar-counter:hover {
+}
+
+.tabbed-pane-header-tabs-drop-down > select.drop-down-menu option {
+}
+
+.overrides-splash-screen {
+}
+
+.overrides-splash-screen .glyph {
+}
+
+.tabbed-pane-header-tab.overrides-activate .tabbed-pane-header-tab-title::after {
+}
+
+body /deep/ .cm-js-keyword {
+}
+
+body /deep/ .cm-js-number {
+}
+
+body /deep/ .cm-js-comment {
+}
+
+body /deep/ .cm-js-string {
+}
+
+body /deep/ .cm-js-string-2 {
+}
+
+body /deep/ .cm-css-keyword {
+}
+
+body /deep/ .cm-css-number {
+}
+
+body /deep/ .cm-css-comment {
+}
+
+body /deep/ .cm-css-def {
+}
+
+body /deep/ .cm-css-meta {
+}
+
+body /deep/ .cm-css-atom {
+}
+
+body /deep/ .cm-css-string {
+}
+
+body /deep/ .cm-css-string-2 {
+}
+
+body /deep/ .cm-css-link {
+}
+
+body /deep/ .cm-css-variable {
+}
+
+body /deep/ .cm-css-variable-2 {
+}
+
+body /deep/ .cm-css-property {
+}
+
+body /deep/ .webkit-css-property {
+  font-family: Monaco, sans-serif !important;
+}
+
+body /deep/ .cm-xml-meta {
+}
+
+body /deep/ .cm-xml-comment {
+}
+
+body /deep/ .cm-xml-string {
+}
+
+body /deep/ .cm-xml-tag {
+}
+
+body /deep/ .cm-xml-attribute {
+}
+
+body /deep/ .cm-xml-link {
+}
+
+body /deep/ .webkit-html-comment {
+  font-family: Monaco, sans-serif !important;
+}
+
+body /deep/ .webkit-html-tag {
+  font-family: Monaco, sans-serif !important;
+}
+
+body /deep/ .webkit-html-tag span {
+  font-family: Monaco, sans-serif !important;
+}
+
+body /deep/ .webkit-html-text-node {
+  font-family: Monaco, sans-serif !important;
+}
+
+body /deep/ .webkit-html-pseudo-element {
+  font-family: Monaco, sans-serif !important;
+}
+
+body /deep/ .webkit-html-entity-value {
+  font-family: Monaco, sans-serif !important;
+}
+
+body /deep/ .webkit-html-doctype {
+  font-family: Monaco, sans-serif !important;
+}
+
+body /deep/ .webkit-html-attribute-name {
+  font-family: Monaco, sans-serif !important;
+}
+
+body /deep/ .webkit-html-attribute-value {
+  font-family: Monaco, sans-serif !important;
+}
+
+body /deep/ .webkit-html-external-link,
+body /deep/ .webkit-html-resource-link {
+  font-family: Monaco, sans-serif !important;
+}
+
+body /deep/ .webkit-html-resource-link {
+  font-family: Monaco, sans-serif !important;
+}
+
+body /deep/ .webkit-html-external-link {
+}
+
+body /deep/ .webkit-html-external-link:hover {
+}
+
+body /deep/ .shadow-root .webkit-html-fragment.shadow-root {
+}
+
+body /deep/ .webkit-html-end-of-file {
+}
+
+body ::shadow .editing {
+}
+
+body ::shadow {
+}
+
+body ::shadow .cm-js-atom {
+}
+
+body ::shadow .cm-js-attribute {
+}
+
+body ::shadow .cm-js-builtin {
+}
+
+body ::shadow .cm-js-comment {
+}
+
+body ::shadow .cm-js-def {
+}
+
+body ::shadow .cm-js-error {
+}
+
+body ::shadow .cm-js-header {
+}
+
+body ::shadow .cm-js-hr {
+}
+
+body ::shadow .cm-js-keyword {
+}
+
+body ::shadow .cm-js-link {
+}
+
+body ::shadow .cm-js-meta {
+}
+
+body ::shadow .cm-js-number {
+}
+
+body ::shadow .cm-js-operator {
+}
+
+body ::shadow .cm-js-property {
+}
+
+body ::shadow .cm-js-string {
+}
+
+body ::shadow .cm-js-string-2 {
+}
+
+body ::shadow .cm-js-tag {
+}
+
+body ::shadow .cm-js-variable {
+}
+
+body ::shadow .cm-js-variable-2 {
+}
+
+body ::shadow .source-frame-eval-expression {
+}
+
+body ::shadow .cm-atom {
+}
+
+body ::shadow .cm-comment {
+}
+
+body ::shadow .cm-variable {
+}
+
+body ::shadow .cm-string {
+}
+
+body ::shadow .cm-keyword {
+}
+
+body ::shadow .cm-number {
+}
+
+body ::shadow .cm-operator {
+}
+
+body ::shadow .cm-error {
+}
+
+body ::shadow .cm-s-default .cm-property {
+}
+
+body ::shadow .cm-css-atom {
+}
+
+body ::shadow .cm-css-builtin {
+}
+
+body ::shadow .cm-css-def {
+}
+
+body ::shadow .cm-css-comment {
+}
+
+body ::shadow .cm-css-meta {
+}
+
+body ::shadow .cm-css-number {
+}
+
+body ::shadow .cm-css-operator {
+}
+
+body ::shadow .cm-css-property {
+}
+
+body ::shadow .cm-css-qualifier {
+}
+
+body ::shadow .cm-css-string {
+}
+
+body ::shadow .cm-css-string-2 {
+}
+
+body ::shadow .cm-css-tag {
+}
+
+body ::shadow .cm-css-variable {
+}
+
+body ::shadow .cm-css-variable-2 {
+}
+
+body ::shadow .cm-xml-comment {
+}
+
+body ::shadow .cm-xml-error {
+}
+
+body ::shadow .cm-xml-string {
+}
+
+body ::shadow .cm-xml-tag {
+}
+
+body ::shadow .cm-xml-attribute {
+}
+
+body ::shadow .cm-xml-link {
+}
+
+body ::shadow .shadow-root .webkit-html-fragment.shadow-root {
+}
+
+body ::shadow .outline-disclosure ol li .highlight {
+}
+
+body ::shadow .CodeMirror-code {
+  font-family: Monaco, sans-serif !important;
+}
+
+body ::shadow .webkit-html-attribute-name {
+  font-family: Monaco, sans-serif !important;
+}
+
+body ::shadow .webkit-html-attribute-value {
+  font-family: Monaco, sans-serif !important;
+}
+
+body ::shadow .webkit-html-comment {
+}
+
+body ::shadow .webkit-html-resource-link,
+body ::shadow .webkit-html-external-link {
+  font-family: Monaco, sans-serif !important;
+}
+
+body ::shadow .webkit-html-tag {
+}
+
+body ::shadow .webkit-html-tag-name {
+  font-family: Monaco, sans-serif !important;
+}
+
+body ::shadow .webkit-html-text-node,
+body ::shadow .webkit-html-css-node,
+body ::shadow .webkit-html-js-node {
+}
+
+body ::shadow .webkit-html-pseudo-element {
+}
+
+body ::shadow .selector-matches {
+}
+
+body ::shadow .webkit-css-selector {
+}
+
+body ::shadow .webkit-css-at-rule {
+}
+
+body ::shadow .webkit-css-color {
+}
+
+body ::shadow .webkit-css-comment {
+}
+
+body ::shadow .webkit-css-important {
+}
+
+body ::shadow .webkit-css-keyword {
+}
+
+body ::shadow .webkit-css-number {
+}
+
+body ::shadow .webkit-css-property,
+body ::shadow .styles-section .properties > li .webkit-css-property {
+}
+
+body ::shadow .webkit-css-string {
+}
+
+body ::shadow .webkit-css-url {
+}
+
+body ::shadow .section .properties .name,
+body ::shadow .event-properties .name,
+body ::shadow .console-object-preview .name,
+body ::shadow .console-formatted-object .name {
+}
+
+body ::shadow .console-formatted-object,
+body ::shadow .console-formatted-array {
+}
+
+body ::shadow .console-formatted-function {
+}
+
+body ::shadow .console-formatted-number {
+}
+
+body ::shadow .console-formatted-boolean {
+}
+
+body ::shadow .console-object-preview {
+}
+
+body ::shadow .console-formatted-regexp {
+}
+
+body ::shadow .console-formatted-string {
+}
+
+body ::shadow .console-formatted-undefined {
+}
+
+body ::shadow .json .title {
+}
+
+body ::shadow .json .separator {
+}
+
+body ::shadow .popover .parent + .children.expanded,
+body ::shadow #console-messages .parent + .children.expanded,
+body ::shadow .sidebar-pane .parent:not(.event-category) + .children.expanded {
+}
+
+body ::shadow .section .properties .dimmed {
+}
+
+body ::shadow .cm-breakpoint .CodeMirror-gutter-elt {
+}
+
+body ::shadow .CodeMirror-cursor {
+}
+
+body ::shadow .cm-error {
+}
+
+body ::shadow .CodeMirror-gutter-elt {
+}
+
+body ::shadow .CodeMirror-gutters {
+}
+
+body ::shadow .CodeMirror-selected,
+body ::shadow span.CodeMirror-selectedtext {
+}
+
+body ::shadow .CodeMirror-code .CodeMirror-matchingbracket {
+}
+
+body ::shadow .CodeMirror-code .CodeMirror-nonmatchingbracket {
+}
+
+body ::shadow .cm-search-highlight-start:before {
+}
+
+body ::shadow .cm-search-highlight-end:before {
+}
+
+body ::shadow .cm-search-highlight:before {
+}
+
+body ::shadow .cm-line-with-selection .cm-column-with-selection.cm-search-highlight:before {
+}
+
+body ::shadow span.cm-token-highlight {
+}
+
+body ::shadow span.cm-token-highlight:before {
+}
+
+body ::shadow .cm-line-with-selection span.cm-column-with-selection {
+}
+
+body ::shadow .cm-whitespace:before {
+}
+
+body ::shadow .cm-tab:before {
+}
+
+body ::shadow .cm-highlight {
+}
+
+body ::shadow .cm-highlight *:not(.CodeMirror-linenumber) {
+}
+
+body ::shadow .cm-execution-line {
+}
+
+body ::shadow .CodeMirror-linenumber {
+}
+
+body ::shadow .cm-line-without-source-mapping {
+}
+
+body ::shadow .editing {
+}
+
+body ::shadow .CodeMirror {
+}
+
+body ::shadow ::-webkit-scrollbar,
+body ::shadow .CodeMirror-scrollbar-filler,
+body ::shadow .CodeMirror-gutter-filler {
+}
+
+body ::shadow ::-webkit-scrollbar-track:horizontal,
+body ::shadow .custom-popup-horizontal-scroll ::-webkit-scrollbar-track:horizontal,
+body ::shadow .custom-popup-vertical-scroll ::-webkit-scrollbar-track:horizontal,
+body ::shadow .custom-popup-vertical-scroll .custom-popup-horizontal-scroll ::-webkit-scrollbar-track:horizontal,
+body ::shadow .custom-popup-horizontal-scroll .custom-popup-vertical-scroll ::-webkit-scrollbar-track:horizontal {
+}
+
+body ::shadow ::-webkit-scrollbar-track:vertical,
+body ::shadow .custom-popup-horizontal-scroll ::-webkit-scrollbar-track:vertical,
+body ::shadow .custom-popup-vertical-scroll ::-webkit-scrollbar-track:vertical,
+body ::shadow .custom-popup-vertical-scroll .custom-popup-horizontal-scroll ::-webkit-scrollbar-track:vertical,
+body ::shadow .custom-popup-horizontal-scroll .custom-popup-vertical-scroll ::-webkit-scrollbar-track:vertical {
+}
+
+body ::shadow ::-webkit-scrollbar-corner,
+body ::shadow .CodeMirror-scrollbar-filler,
+body ::shadow .CodeMirror-gutter-filler {
+}
+
+body ::shadow ::-webkit-scrollbar-thumb {
+}
+
+body ::shadow ::-webkit-scrollbar-thumb:horizontal {
+}
+
+body ::shadow ::-webkit-scrollbar-thumb:vertical {
+}
+
+body ::shadow .styles-section.matched-styles .properties li.parent.expanded .expand-element,
+body ::shadow #console-messages .console-group-messages .section.expanded .header::before,
+body ::shadow #console-messages .properties-tree li.parent.expanded::before,
+body ::shadow .outline-disclosure li.parent.expanded::before,
+body ::shadow .properties-tree li.parent.expanded::before,
+body ::shadow .section.expanded > .header::before,
+body ::shadow .section .event-bar.expanded .header::before,
+body ::shadow .sidebar-pane .parent.expanded::before,
+body ::shadow .sidebar-pane-stack .sidebar-pane-title.expanded::before,
+body ::shadow .timeline-expandable-expanded .timeline-expandable-arrow {
+}
+
+body ::shadow .sidebar-pane-stack .sidebar-pane-title.expanded::before {
+}
+
+body ::shadow .styles-section.matched-styles .properties li.parent .expand-element,
+body ::shadow #console-messages .console-group-messages .section .header::before,
+body ::shadow #console-messages .properties-tree li.parent::before,
+body ::shadow .outline-disclosure li.parent::before,
+body ::shadow #search-results-pane-file-based .parent::before,
+body ::shadow .properties-tree li.parent::before,
+body ::shadow .section > .header::before,
+body ::shadow .section .event-bar .header::before,
+body ::shadow .sidebar-pane .parent::before,
+body ::shadow .sidebar-pane-stack .sidebar-pane-title::before,
+body ::shadow .timeline-expandable-collapsed .timeline-expandable-arrow,
+body ::shadow ::shadow #search-results-pane-file-based .parent::before {
+}
+
+body ::shadow .data-grid th.sort-ascending > div::after {
+}
+
+body ::shadow .data-grid th.sort-descending > div::after {
+}
+
+body ::shadow #search-results-pane-file-based .parent.expanded::before,
+body ::shadow ::shadow #search-results-pane-file-based .parent.expanded::before {
+}
+
+body ::shadow #search-results-pane-file-based .parent.expanded::before,
+body ::shadow ::shadow #search-results-pane-file-based .parent.expanded::before {
+}
+
+body ::shadow #search-results-pane-file-based .parent::before,
+body ::shadow ::shadow #search-results-pane-file-based .parent::before {
+}
+
+body ::shadow .panel.network .outline-disclosure li.parent::before {
+}
+
+body ::shadow .sidebar-tabbed-pane .section > .header::before,
+body ::shadow .event-bars .event-bar .header::before {
+}
+
+body ::shadow .status-bar-select-arrow {
+}
+
+body /deep/ .highlighted-search-result {
+}
+
+.timeline-aggregated-category + span {
+}
+
+.glyph {
+}
+
+::shadow .crumbs {
+  font-family: Monaco, sans-serif !important;
+}
+
+::shadow .crumbs .crumb {
+  font-family: Monaco, sans-serif !important;
+}
+
+::shadow .crumbs .crumb:hover {
+}
+
+::shadow .crumbs .crumb.selected {
+}
+
+.image-view .title {
+}
+
+.image-view .infoList dt {
+}
+
+.image-view .infoList dd {
+}
+
+.image-view dd > a.undefined {
+}
+
+.timeline-details-view-body {
+}
+
+.timeline-details-view-row {
+}
+
+.timeline-details-view-row-value {
+}
+
+.timeline-details-view-row-title {
+}
+
+.timeline-aggregated-info-legend > div,
+.memory-counter-sidebar-info {
+}
+
+::shadow .flame-chart-selected-element {
+}
+
+.layer-tree.outline-disclosure li,
+.profiler-log-view li {
+  font-family: 宋体, sans-serif !important;
+}
+
+.timeline-layers-view-properties table tr td:nth-child(1) {
+}
+
+.timeline-layers-view-properties table tr td:nth-child(2) {
+}
+
+.timeline-layers-view-properties td {
+}
+
+::shadow .spectrum-display-value,
+::shadow .spectrum-range-container {
+}
+
+.toolbar > .status-bar {
+}
+
+.filter-bar.hbox {
+}
+
+::shadow .toolbar-search-control {
+}
+
+::shadow .toolbar-search-control:disabled,
+::shadow ::shadow .toolbar-search-control:disabled {
+}
+
+::shadow .toolbar-search-control:focus,
+::shadow ::shadow .toolbar-search-control:focus {
+}
+
+::shadow #search-results-pane-file-based .search-match:hover,
+::shadow ::shadow #search-results-pane-file-based .search-match:hover {
+}
+
+html /deep/ .component-root {
+}
+
+.filter-combobox-filter .toolbar-item,
+.filter-input-field {
+  font-family: 宋体, sans-serif !important;
+}
+
+.filter-combobox-filter .toolbar-item:disabled,
+.filter-input-field:disabled {
+}
+
+.filter-combobox-filter .toolbar-item:focus,
+.filter-input-field:focus {
+}
+
+::shadow select.status-bar-item,
+::shadow .toolbar::shadow select.toolbar-item {
+  font-family: 宋体, sans-serif !important;
+}
+
+::shadow select.status-bar-item /deep/ option,
+::shadow .toolbar::shadow select.toolbar-item /deep/ option {
+  font-family: 宋体, sans-serif !important;
+}
+
+#glass-pane .status-bar.fill {
+}
+
+::shadow .status-bar-shadow.floating {
+}
+
+::shadow .status-bar-shadow.floating .status-bar-item {
+}
+
+#memory-graphs-container > div:last-child {
+}
+
+.timeline-layers-view > div:last-child,
+.timeline-layers-view-properties > div:last-child {
+}
+
+::shadow .shadow-split-view.vbox > .shadow-split-view-sidebar:not(.maximized) {
+}
+
+.device-name {
+}
+
+.device-serial {
+}
+
+.overrides-splash-screen .status-bar {
+}
+
+.overrides-view {
+}
+
+.overrides-view ::shadow .tabbed-pane-content {
+}
+
+.network-details-view-tall-header .network-item-view::shadow .tabbed-pane-header {
+}
+
+.network-details-view-tall-header .network-item-view::shadow .tabbed-pane-header-tab {
+}
+
+.network .request-headers-view .parent {
+}
+
+.data-grid .header-container {
+}
+
+::shadow .suggest-box {
+}
+
+::shadow .suggest-box-content-item.source-code:hover {
+}
+
+::shadow .suggest-box-content-item.source-code.selected {
+}
+
+::shadow .suggest-box .source-code .prefix {
+}
+
+::shadow .suggest-box .source-code .suffix {
+}
+
+::shadow .vertical-tab-layout .tabbed-pane-header-tab {
+}
+
+::shadow .vertical-tab-layout .tabbed-pane-header-tab.selected {
+}
+
+.help-window-main ::shadow .tabbed-pane-header {
+}
+
+.help-window-main ::shadow .tabbed-pane-header-contents {
+}
+
+::shadow style + .text-prompt-editing {
+}
+
+::shadow .text-prompt-editing > ::content * {
+}
+
+.callstack-info.status {
+}
+
+.events-pane > ol > li.parent {
+}
+
+.events-pane > ol > ol > li {
+}
+
+.events-pane .sidebar-pane .section.expanded > .header,
+.events-pane .children .section.event-bar {
+}
+
+body .sidebar-pane .parent:not(.event-category) + .children.expanded {
+}
+
+.hidden-callframes-message {
+}
+
+.hidden-callframes-message .link {
+}
+
+.styles-section-title .media-list.media-matches .media.editable-media,
+.styles-section-title .media-list {
+}
+
+.styles-section-title .media-list.media-matches .media.editable-media.media-matches .media.editable-media .media-text,
+.styles-section-title .media-list.media-matches .media.editable-media .media-text {
+}
+
+.styles-section .header .title .media-list.media-matches .media.editable-media {
+}
+
+.watch-expressions {
+}
+
+.watch-expressions .name {
+}
+
+.watch-expression .primitive-value:hover,
+.watch-expression .section .header:hover {
+}
+
+.error-message {
+}
+
+.settings-experiment-hidden label {
+  font-family: 宋体, sans-serif !important;
+}
+
+.settings-experiment-hidden label .dt-checkbox-text {
+  font-family: 宋体, sans-serif !important;
+}
+
+.event-listener-tree > li {
+}
+
+.event-listener-tree .name {
+}
+
+#network-overview-container {
+}
+
+.network-overview-canvas-container {
+}
+
+.styles-section .style-properties li.filter-match,
+.styles-section .simple-selector.filter-match {
+}
+
+.text-editor-value-decoration {
+}
+
+.source-frame-infobar::shadow .infobar-warning {
+}
+
+.source-frame-infobar::shadow .source-frame-infobar-toggle-link {
+}
+
+.cm-execution-line-tail {
+}
+
+.popover {
+}
+
+.watch-expression-header:hover {
+}
+
+div.ax-computed-name {
+}
+
+::shadow .ax-name {
+}
+
+::shadow .ax-role {
+}
+
+body .inspector-view-toolbar.toolbar::shadow .toolbar-button-theme {
+}
+
+.inspector-view-toolbar-left,
+.inspector-view-toolbar.tabbed-pane-header-after {
+}
+
+.console-view .toolbar,
+.network .toolbar {
+}
+
+::shadow .toolbar-item > .glyph,
+::shadow .toolbar-item > .glyph:active,
+::shadow .filter-toolbar-item.toggled-shown .glyph,
+::shadow button.toolbar-item.toggled-on .glyph {
+}
+
+::shadow .filter-toolbar-item.toggled-shown {
+  font-family: 宋体, sans-serif !important;
+}
+
+::shadow .toolbar-item > .glyph,
+::shadow button.toolbar-item.toggled-off .glyph {
+}
+
+::shadow .toolbar-counter-item {
+}
+
+#sources-panel-sources-view .sources-toolbar {
+}
+
+.toolbar::shadow .toolbar-select-arrow {
+}
+
+.resources-toolbar,
+::shadow .search-toolbar-summary {
+}
+
+.profiles-toolbar {
+  font-family: 宋体, sans-serif !important;
+}
+
+::shadow .shadow-split-widget.hbox > .shadow-split-widget-sidebar:not(.maximized) {
+}
+
+::shadow .shadow-split-widget.hbox.shadow-split-widget-first-is-sidebar > .shadow-split-widget-sidebar:not(.maximized) {
+}
+
+.styles-animations-controls-pane.expanded {
+}
+
+.styles-animations-controls-pane > * {
+}
+
+.dt-checkbox-text,
+::shadow .dt-checkbox-text,
+::content .dt-checkbox-text {
+  font-family: 宋体, sans-serif !important;
+}
+
+::shadow .shadow-split-widget button.sidebar-show-hide-button {
+}
+
+::shadow .shadow-split-widget.vbox > .shadow-split-widget-sidebar:not(.maximized) {
+}
+
+.overrides-view label,
+.overrides-view fieldset > span,
+#metrics-override-section span,
+#metrics-override-section td,
+#geolocation-override-section td {
+}
+
+::shadow .object-properties-section-name,
+.console-view-object-properties-section span {
+}
+
+.filter-bar {
+}
+
+.styles-pane-toolbar {
+}
+
+::shadow .event-listener-tree > li {
+}
+
+.properties-widget-section {
+}
+
+.properties-widget-section::shadow .object-properties-section {
+}
+
+::shadow .event-listener-tree .name {
+}
+
+.scope-chain-sidebar-pane-section-title {
+}
+
+.inspector-view-tabbed-pane::shadow .tabbed-pane-header-tab.selected {
+}
+
+::shadow .tabbed-pane-tab-slider {
+}
+
+::shadow .tabbed-pane-header-tab {
+}
+
+::shadow .toolbar-divider {
+}
+
+.console-view > .toolbar,
+.panel.network > .toolbar {
+}
+
+::shadow .toolbar-item {
+  font-family: 宋体, sans-serif !important;
+}
+
+::shadow .toolbar-shadow.floating {
+}
+
+::shadow .toolbar-item.emulate-active {
+}
+
+.styles-sidebar-pane-toolbar {
+}
+
+.metrics-and-styles .metrics {
+  font-family: Monaco, sans-serif !important;
+}
+
+.styles-filter-engaged {
+}
+
+.styles-sidebar-pane-filter-box > input {
+}
+
+.styles-element-state-pane {
+}
+
+.styles-element-state-pane > div {
+}
+
+::shadow .pin-toolbar-item.toggled-on,
+::shadow .animation-toolbar-item.toggled-on {
+}
+
+.styles-animations-controls-pane {
+}
+
+.panel:not(.network) .resources-dividers-label-bar {
+}
+
+::shadow .list-item:hover {
+}
+
+.sidebar-pane > .toolbar {
+}
+
+::shadow ::shadow .regex-search-toolbar-item.toggled-on .toolbar-button-text,
+::shadow ::shadow .case-sensitive-search-toolbar-item.toggled-on .toolbar-button-text {
+}
+
+.panel.timeline > .toolbar {
+}
+
+.sort-order-icon {
+}
+
+.data-grid th.sort-descending .sort-order-icon {
+}
+
+.data-grid th.sort-ascending .sort-order-icon {
+}
+
+.tree-outline {
+  font-family: Monaco, sans-serif !important;
+}
+
+::shadow .tree-outline li.odd-row + .children li,
+::shadow .tree-outline li.odd-row {
+  font-family: Monaco, sans-serif !important;
+}
+
+.tree-element-title {
+  font-family: 宋体, sans-serif !important;
+}
+
+:host-context(.platform-windows) .monospace,
+:host-context(.platform-windows) .source-code,
+.platform-windows .monospace,
+.platform-windows .source-code {
+  font-family: Monaco, sans-serif !important;
+}
+
+.soft-context-menu {
+  font-family: 宋体, sans-serif !important;
+}
+
+.property-value {
+  font-family: Monaco, sans-serif !important;
+}
+
+.property-trace {
+  font-family: Monaco, sans-serif !important;
+}
+
+::shadow .tooltip {
+  font-family: 宋体, sans-serif !important;
+}
+
+::shadow .object-properties-section .object-properties-section-root-element,
+::shadow .object-properties-section .name,
+::shadow .object-properties-section .value {
+  font-family: Monaco, sans-serif !important;
+}
+
+::shadow .source-code {
+  font-family: Monaco, sans-serif !important;
+}
+
+.source-code {
+  font-family: Monaco, sans-serif !important;
+}
+
+::shadow .filtered-list-widget-title {
+  font-family: Monaco, sans-serif !important;
+}
+
+::shadow .filtered-list-widget-subtitle {
+  font-family: Monaco, sans-serif !important;
+}
+
+::shadow .filtered-list-widget-input {
+  font-family: Monaco, sans-serif !important;
+}
