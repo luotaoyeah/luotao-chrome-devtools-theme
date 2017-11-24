@@ -3600,3 +3600,11 @@ body .inspector-view-toolbar.toolbar::shadow .toolbar-button-theme {
 ::shadow .filtered-list-widget-input {
   font-family: Monaco, sans-serif !important;
 }
+
+td.name-column .network-cell-subtitle {
+  font-family: Monaco, sans-serif !important;
+}
+
+td.name-column {
+  font-family: Monaco, sans-serif !important;
+}
