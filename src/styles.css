@@ -3608,3 +3608,12 @@ td.name-column .network-cell-subtitle {
 td.name-column {
   font-family: Monaco, sans-serif !important;
 }
+
+.console-message-repeat-count {
+  font-family: 宋体, sans-serif !important;
+  margin: 4px 0 0 10px !important;
+}
+
+.console-message-stack-trace-triangle {
+  margin: 3px 0 0 0;
+}
