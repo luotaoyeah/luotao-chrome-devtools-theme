@@ -158,14 +158,17 @@ span.cm-token-highlight:before {
 
 #elements-crumbs {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 #elements-crumbs .crumbs {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 #elements-crumbs .crumbs .crumb {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 #elements-crumbs .crumbs .crumb:hover {
@@ -283,6 +286,7 @@ input[type='range']::-webkit-slider-thumb {
 
 .revision-history-drawer .source-code {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .revision-history-drawer .source-code .revision-history-line-separator:nth-child(1) {
@@ -585,6 +589,7 @@ body.dock-to-right:not(.undocked):not(.overlay-contents) {
 
 #console-messages {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .console-message {
@@ -604,6 +609,7 @@ body.dock-to-right:not(.undocked):not(.overlay-contents) {
 
 #console-messages .console-user-command > .console-message-text {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .console-adjacent-user-command-result {
@@ -615,11 +621,13 @@ body.dock-to-right:not(.undocked):not(.overlay-contents) {
 
 #console-messages .console-user-command > .console-message-text {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 #console-messages .console-debug-level .console-message-text,
 #console-messages .console-debug-level .console-message-url {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 #console-messages .console-debug-level .children div:hover * {
@@ -635,6 +643,7 @@ body.dock-to-right:not(.undocked):not(.overlay-contents) {
 #console-messages .console-log-level .console-message-text,
 #console-messages .console-log-level .console-message-url {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 #console-messages .console-log-level .children div:hover * {
@@ -650,6 +659,7 @@ body.dock-to-right:not(.undocked):not(.overlay-contents) {
 #console-messages .console-warning-level .console-message-text,
 #console-messages .console-warning-level .console-message-url {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 #console-messages .console-warning-level .children div:hover * {
@@ -665,6 +675,7 @@ body.dock-to-right:not(.undocked):not(.overlay-contents) {
 #console-messages .console-error-level .console-message-text,
 #console-messages .console-error-level .console-message-url {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 #console-messages .console-error-level .children div:hover * {
@@ -680,6 +691,7 @@ body.dock-to-right:not(.undocked):not(.overlay-contents) {
 #console-messages .console-info-level .console-message-text,
 #console-messages .console-info-level .console-message-url {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 #console-messages .console-info-level .children div:hover * {
@@ -819,6 +831,7 @@ body /deep/ .link {
 
 .source-code .CodeMirror {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .panel.elements #elements-content .CodeMirror {
@@ -899,10 +912,12 @@ body /deep/ .link {
 
 .request-headers-view .header-name {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 ::shadow .request-headers-view .header-value {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .request-headers-view .caution {
@@ -1730,6 +1745,7 @@ li.breakpoint-hit .breakpoint-hit-marker {
 
 .styles-section {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .styles-section:first-child {
@@ -1740,11 +1756,13 @@ li.breakpoint-hit .breakpoint-hit-marker {
 
 .styles-section .value {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .styles-section .child-editing,
 .styles-section .header .subtitle {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .styles-section .properties .overloaded,
@@ -1752,6 +1770,7 @@ li.breakpoint-hit .breakpoint-hit-marker {
 .styles-section .properties .disabled,
 .styles-section .properties .not-parsed-ok {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .event-bars .event-bar .header .title {
@@ -1763,6 +1782,7 @@ li.breakpoint-hit .breakpoint-hit-marker {
 .sidebar-pane .body,
 .sidebar-pane .monospace {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .sidebar-pane .section.expanded > .header {
@@ -1773,6 +1793,7 @@ li.breakpoint-hit .breakpoint-hit-marker {
 
 .sidebar-pane .metrics {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .sidebar-pane .metrics .position {
@@ -1792,6 +1813,7 @@ li.breakpoint-hit .breakpoint-hit-marker {
 .styles-section.first-styles-section,
 .sidebar-separator + .styles-section {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .sidebar-separator {
@@ -1963,289 +1985,359 @@ label.checkbox,
 
 .cm-js-atom {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .cm-js-attribute {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .cm-js-builtin {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .cm-js-comment {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .cm-js-def {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .cm-js-error {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .cm-js-header {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .cm-js-hr {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .cm-js-keyword {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .cm-js-link {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .cm-js-meta {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .cm-js-number,
 .section .properties .number,
 .event-properties .number {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .cm-js-operator {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .cm-js-property {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .cm-js-string {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .cm-js-string-2 {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .cm-js-tag {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .cm-js-variable {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .cm-js-variable-2 {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .source-frame-eval-expression {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .cm-atom {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .cm-comment {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .cm-variable {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .cm-string {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .cm-keyword {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .cm-number {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .cm-operator {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .cm-error {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .cm-s-default .cm-property {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .cm-css-atom {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important
 }
 
 .cm-css-builtin {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important
 }
 
 .cm-css-def {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important
 }
 
 .cm-css-comment {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important
 }
 
 .cm-css-meta {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important
 }
 
 .cm-css-number {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important
 }
 
 .cm-css-operator {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important
 }
 
 .cm-css-property {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important
 }
 
 .cm-css-qualifier {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important
 }
 
 .cm-css-string {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important
 }
 
 .cm-css-string-2 {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important
 }
 
 .cm-css-tag {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important
 }
 
 .cm-css-variable {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important
 }
 
 .cm-css-variable-2 {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important
 }
 
 .cm-xml-comment {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important
 }
 
 .cm-xml-error {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important
 }
 
 .cm-xml-string {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important
 }
 
 .cm-xml-tag {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important
 }
 
 .cm-xml-attribute {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important
 }
 
 .cm-xml-link {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important
 }
 
 ::shadow .webkit-html-fragment {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important
 }
 
 .outline-disclosure ol li .highlight {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important
 }
 
 .CodeMirror-code {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important
 }
 
 .webkit-html-attribute-name {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important
 }
 
 .webkit-html-attribute-value {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important
 }
 
 .webkit-html-comment {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important
 }
 
 .webkit-html-resource-link,
 .webkit-html-external-link {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important
 }
 
 .webkit-html-tag,
 .webkit-html-tag-name {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important
 }
 
 .webkit-html-text-node,
 .webkit-html-css-node,
 .webkit-html-js-node {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important
 }
 
 .webkit-html-pseudo-element {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important
 }
 
 .selector-matches {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important
 }
 
 .webkit-css-selector {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important
 }
 
 .webkit-css-at-rule {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important
 }
 
 .webkit-css-color {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important
 }
 
 .webkit-css-comment {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important
 }
 
 .webkit-css-important {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important
 }
 
 .webkit-css-keyword {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important
 }
 
 .webkit-css-number {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important
 }
 
 .webkit-css-property,
 .styles-section .properties > li .webkit-css-property {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important
 }
 
 .webkit-css-string {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important
 }
 
 .webkit-css-url {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important
 }
 
 .section .properties .name,
@@ -2556,6 +2648,7 @@ body /deep/ .cm-css-property {
 
 body /deep/ .webkit-css-property {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 body /deep/ .cm-xml-meta {
@@ -2586,6 +2679,7 @@ body /deep/ .webkit-html-tag {
 
 body /deep/ .webkit-html-tag span {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 body /deep/ .webkit-html-text-node {
@@ -2602,6 +2696,7 @@ body /deep/ .webkit-html-entity-value {
 
 body /deep/ .webkit-html-doctype {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 body /deep/ .webkit-html-attribute-name {
@@ -2802,6 +2897,7 @@ body ::shadow .webkit-html-attribute-name {
 
 body ::shadow .webkit-html-attribute-value {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 body ::shadow .webkit-html-comment {
@@ -3333,6 +3429,11 @@ body .sidebar-pane .parent:not(.event-category) + .children.expanded {
 .network-overview-canvas-container {
 }
 
+.styles-section .style-properties {
+  font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
+}
+
 .styles-section .style-properties li.filter-match,
 .styles-section .simple-selector.filter-match {
 }
@@ -3555,8 +3656,21 @@ body .inspector-view-toolbar.toolbar::shadow .toolbar-button-theme {
 :host-context(.platform-windows) .monospace,
 :host-context(.platform-windows) .source-code,
 .platform-windows .monospace,
-.platform-windows .source-code {
+.platform-windows .source-code,
+:host-context(.platform-windows) .monospace *,
+:host-context(.platform-windows) .source-code *,
+.platform-windows .monospace *,
+.platform-windows .source-code * {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
+}
+
+.platform-windows div.monospace,
+:host-context(.platform-windows) div.source-code.header-value,
+.platform-windows .source-code.object-value-function,
+.platform-windows .source-code.console-message-text {
+  font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .soft-context-menu {
@@ -3565,10 +3679,12 @@ body .inspector-view-toolbar.toolbar::shadow .toolbar-button-theme {
 
 .property-value {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .property-trace {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 ::shadow .tooltip {
@@ -3579,34 +3695,42 @@ body .inspector-view-toolbar.toolbar::shadow .toolbar-button-theme {
 ::shadow .object-properties-section .name,
 ::shadow .object-properties-section .value {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 ::shadow .source-code {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .source-code {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 ::shadow .filtered-list-widget-title {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 ::shadow .filtered-list-widget-subtitle {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 ::shadow .filtered-list-widget-input {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 td.name-column .network-cell-subtitle {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 td.name-column {
   font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .console-message-repeat-count {
