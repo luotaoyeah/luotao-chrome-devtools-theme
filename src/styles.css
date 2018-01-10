@@ -3667,6 +3667,7 @@ body .inspector-view-toolbar.toolbar::shadow .toolbar-button-theme {
 
 .platform-windows div.monospace,
 :host-context(.platform-windows) div.source-code.header-value,
+:host-context(.platform-windows) .source-code.object-properties-section,
 .platform-windows .source-code.object-value-function,
 .platform-windows .source-code.console-message-text {
   font-family: Monaco, sans-serif !important;
