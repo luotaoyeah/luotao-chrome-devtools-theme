@@ -1,5 +1,5 @@
 # luotao-chrome-devtools-theme
-A Chrome devtools theme for Google Chrome on MacOS.
+A Chrome devtools theme for Google Chrome on macOS.
 
 
 1. `#enable-devtools-experiments` : [chrome://flags/#enable-devtools-experiments](chrome://flags/#enable-devtools-experiments)
