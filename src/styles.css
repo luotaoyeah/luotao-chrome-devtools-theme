@@ -1,5 +1,5 @@
 .platform-mac {
-  font-family: '.SFNSDisplay-Regular', sans-serif !important;
+  font-family: 'PingFang SC', sans-serif !important;
 }
 
 :host-context(.platform-mac) .monospace,
