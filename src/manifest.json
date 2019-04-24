@@ -1,7 +1,7 @@
 {
   "name": "luotao-devtool-theme",
   "description": "luotao-devtool-theme",
-  "version": "1.5",
+  "version": "1.6",
   "manifest_version": 2,
   "devtools_page": "devtools.html"
 }
