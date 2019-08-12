@@ -1,25 +1,25 @@
 .platform-windows,
 .platform-mac {
-    font-family: 'Microsoft YaHei', sans-serif !important;
+  font-family: 'Microsoft YaHei', sans-serif !important;
 }
 
 :host-context(.platform-windows) .monospace,
 :host-context(.platform-windows) .source-code,
 .platform-windows .monospace,
 .platform-windows .source-code {
-    font-family: Monaco, sans-serif !important;
-    font-size: 11px !important;
+  font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 :host-context(.platform-mac) .monospace,
 :host-context(.platform-mac) .source-code,
 .platform-mac .monospace,
 .platform-mac .source-code {
-    font-family: Monaco, sans-serif !important;
-    font-size: 11px !important;
+  font-family: Monaco, sans-serif !important;
+  font-size: 11px !important;
 }
 
 .platform-windows .source-code .console-message-anchor,
 .platform-windows .source-code .console-message-text {
-    font-size: 11px !important;
+  font-size: 11px !important;
 }
