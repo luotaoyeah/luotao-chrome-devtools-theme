@@ -1,6 +1,6 @@
 .platform-windows,
 .platform-mac {
-  font-family: 'Microsoft YaHei', sans-serif !important;
+  font-family: '宋体', 'Microsoft YaHei', sans-serif !important;
 }
 
 :host-context(.platform-windows) .monospace,
