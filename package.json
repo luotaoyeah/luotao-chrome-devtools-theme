@@ -1,13 +1,13 @@
 {
   "name": "@luotao/chrome-devtools-theme",
   "version": "1.0.0",
-  "description": "A custom devtools theme for Google Chrome.",
+  "description": "a custom devtools theme for chrome.",
   "author": "luotao <luotaoyeah@gmail.com>",
   "main": "index.js",
   "scripts": {},
   "devDependencies": {
-    "husky": "^3.0.3",
-    "lint-staged": "^9.2.1",
-    "prettier": "^1.18.2"
+    "husky": "^5.1.3",
+    "lint-staged": "^10.5.4",
+    "prettier": "^2.2.1"
   }
 }
