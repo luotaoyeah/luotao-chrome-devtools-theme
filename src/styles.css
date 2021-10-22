@@ -47,3 +47,23 @@
 .cm-js-comment {
   font-style: normal !important;
 }
+
+.console-group-title.console-from-api {
+  font-weight: normal !important;
+}
+
+.console-object-preview {
+  font-style: normal !important;
+}
+
+.treeItemPin-15216334 {
+  display: none !important;
+}
+
+.filtered-list-widget-item {
+  font-family: Monaco, monospace !important;
+}
+
+.console-message-repeat-count div.warning {
+  border-radius: 3px !important;
+}
