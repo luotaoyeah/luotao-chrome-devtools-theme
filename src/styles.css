@@ -1,20 +1,27 @@
 .platform-windows,
-.platform-mac {
-  font-family: '宋体', 'Microsoft YaHei', sans-serif !important;
+:host-context(.platform-windows) {
+  --monospace-font-size: 12px;
+  --monospace-font-family: Monaco, consolas, lucida console, courier new, monospace;
+  --source-code-font-size: 12px;
+  --source-code-font-family: Monaco, consolas, lucida console, courier new, monospace;
+}
+
+.platform-windows,
+.platform-mac,
+select,
+input {
+  font-family: simsun, '宋体', 'Microsoft YaHei', '微软雅黑', sans-serif !important;
 }
 
 :host-context(.platform-windows) .monospace,
 :host-context(.platform-windows) .source-code,
 .platform-windows .monospace,
-.platform-windows .source-code {
-  font-family: Monaco, sans-serif !important;
-  font-size: 11px !important;
-}
-
+.platform-windows .source-code,
 :host-context(.platform-mac) .monospace,
 :host-context(.platform-mac) .source-code,
 .platform-mac .monospace,
-.platform-mac .source-code {
+.platform-mac .source-code,
+.data-grid table.data tr {
   font-family: Monaco, sans-serif !important;
   font-size: 11px !important;
 }
@@ -24,9 +31,10 @@
   font-size: 11px !important;
 }
 
-.data-grid table.data tr {
-  font-family: Monaco, sans-serif !important;
-  font-size: 11px !important;
+div.view span.cell.byte-cell,
+div.view span.address,
+.filtered-list-widget-item {
+  font-family: Monaco, monospace !important;
 }
 
 .filter-bitset-filter span {
@@ -34,17 +42,12 @@
   border-radius: 2px !important;
 }
 
-.gray-info-message {
-  font-style: normal !important;
-}
-
 .navigator-sm-folder-tree-item .tree-element-title,
 .navigator-sm-script-tree-item .tree-element-title,
-.navigator-sm-stylesheet-tree-item .tree-element-title {
-  font-style: normal !important;
-}
-
-.cm-js-comment {
+.navigator-sm-stylesheet-tree-item .tree-element-title,
+.cm-js-comment,
+.console-object-preview,
+.gray-info-message {
   font-style: normal !important;
 }
 
@@ -52,16 +55,8 @@
   font-weight: normal !important;
 }
 
-.console-object-preview {
-  font-style: normal !important;
-}
-
 .treeItemPin-15216334 {
   display: none !important;
-}
-
-.filtered-list-widget-item {
-  font-family: Monaco, monospace !important;
 }
 
 .console-message-repeat-count div.warning {
