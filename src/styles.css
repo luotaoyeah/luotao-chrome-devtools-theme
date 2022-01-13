@@ -26,6 +26,15 @@ input {
   font-size: 11px !important;
 }
 
+devtools-text-prompt {
+  font-family: simsun, sans-serif !important;
+}
+
+.text-prompt-input input {
+  font-family: Monaco, sans-serif !important;
+  font-size: 12px !important;
+}
+
 .platform-windows .source-code .console-message-anchor,
 .platform-windows .source-code .console-message-text {
   font-size: 11px !important;
