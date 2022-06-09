@@ -1,16 +1,16 @@
 .platform-windows,
 :host-context(.platform-windows) {
-  --monospace-font-size: 12px;
-  --monospace-font-family: Monaco, consolas, lucida console, courier new, monospace;
-  --source-code-font-size: 12px;
-  --source-code-font-family: Monaco, consolas, lucida console, courier new, monospace;
+    --monospace-font-size: 12px;
+    --monospace-font-family: Monaco, consolas, lucida console, courier new, monospace;
+    --source-code-font-size: 12px;
+    --source-code-font-family: Monaco, consolas, lucida console, courier new, monospace;
 }
 
 .platform-windows,
 .platform-mac,
 select,
 input {
-  font-family: simsun, '宋体', 'Microsoft YaHei', '微软雅黑', sans-serif !important;
+    font-family: simsun, '宋体', 'Microsoft YaHei', '微软雅黑', sans-serif !important;
 }
 
 :host-context(.platform-windows) .monospace,
@@ -22,33 +22,33 @@ input {
 .platform-mac .monospace,
 .platform-mac .source-code,
 .data-grid table.data tr {
-  font-family: Monaco, sans-serif !important;
-  font-size: 11px !important;
+    font-family: Monaco, sans-serif !important;
+    font-size: 11px !important;
 }
 
 devtools-text-prompt {
-  font-family: simsun, sans-serif !important;
+    font-family: simsun, sans-serif !important;
 }
 
 .text-prompt-input input {
-  font-family: Monaco, sans-serif !important;
-  font-size: 12px !important;
+    font-family: Monaco, sans-serif !important;
+    font-size: 12px !important;
 }
 
 .platform-windows .source-code .console-message-anchor,
 .platform-windows .source-code .console-message-text {
-  font-size: 11px !important;
+    font-size: 11px !important;
 }
 
 div.view span.cell.byte-cell,
 div.view span.address,
 .filtered-list-widget-item {
-  font-family: Monaco, monospace !important;
+    font-family: Monaco, monospace !important;
 }
 
 .filter-bitset-filter span {
-  padding: 1px 3px 1px !important;
-  border-radius: 2px !important;
+    padding: 1px 3px 1px !important;
+    border-radius: 2px !important;
 }
 
 .navigator-sm-folder-tree-item .tree-element-title,
@@ -57,17 +57,23 @@ div.view span.address,
 .cm-js-comment,
 .console-object-preview,
 .gray-info-message {
-  font-style: normal !important;
+    font-style: normal !important;
 }
 
 .console-group-title.console-from-api {
-  font-weight: normal !important;
+    font-weight: normal !important;
 }
 
 .treeItemPin-15216334 {
-  display: none !important;
+    display: none !important;
 }
 
 .console-message-repeat-count div.warning {
-  border-radius: 3px !important;
+    border-radius: 3px !important;
+}
+
+.payload-name {
+    font-family: Monaco, sans-serif !important;
+    font-weight: normal !important;
+    font-size: 11px !important;
 }

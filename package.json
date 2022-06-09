@@ -1,15 +1,16 @@
 {
-  "name": "@luotao/chrome-devtools-theme",
-  "version": "1.0.0",
-  "description": "a custom devtools theme for chrome.",
-  "main": "index.js",
-  "scripts": {},
-  "devDependencies": {
-    "prettier": "2.6.2"
-  },
-  "prettier": {
-    "printWidth": 160,
-    "singleQuote": true,
-    "trailingComma": "all"
-  }
+    "name": "@luotao/chrome-devtools-theme",
+    "version": "1.0.0",
+    "description": "a custom devtools theme for chrome.",
+    "main": "index.js",
+    "scripts": {},
+    "devDependencies": {
+        "prettier": "2.8.4"
+    },
+    "prettier": {
+        "printWidth": 160,
+        "singleQuote": true,
+        "tabWidth": 4,
+        "trailingComma": "all"
+    }
 }
