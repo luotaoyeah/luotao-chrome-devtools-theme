@@ -2,7 +2,8 @@
 
 A custom devtools theme for Google Chrome.
 
-1. `#enable-devtools-experiments` : [chrome://flags/#enable-devtools-experiments](chrome://flags/#enable-devtools-experiments)
-2. `Settings - Experiments - Allow custom UI themes`
+1. `Settings - Experiments - Allow custom UI themes`
+
+   ![](01.png)
 
 ![](/.doc/preview.png)
