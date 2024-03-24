@@ -1,6 +1,6 @@
 {
-    "name": "luotao-devtool-theme",
-    "description": "luotao-devtool-theme",
+    "name": "luotao-devtools-theme",
+    "description": "luotao-devtools-theme",
     "version": "1.8",
     "manifest_version": 3,
     "devtools_page": "devtools.html"
