@@ -10,7 +10,7 @@
 .platform-mac,
 select,
 input {
-    font-family: simsun, '宋体', 'Microsoft YaHei', '微软雅黑', sans-serif !important;
+    font-family: Monaco, SimSun, '宋体', 'Microsoft YaHei', '微软雅黑', sans-serif !important;
 }
 
 :host-context(.platform-windows) .monospace,
